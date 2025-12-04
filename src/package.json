@@ -1,0 +1,50 @@
+{
+  "name": "searchwiz",
+  "version": "1.0.0",
+  "description": "Smart WordPress search with instant AJAX results and intelligent content discovery",
+  "main": "public/react/index.js",
+  "scripts": {
+    "build": "npm run build:react && npm run build:css && npm run build:js",
+    "build:react": "wp-scripts build react/index.js --output-path=public/dist",
+    "build:css": "cleancss -o admin/css/searchwiz-admin.min.css admin/css/searchwiz-admin.css && cleancss -o public/css/searchwiz-ajax-search.min.css public/css/searchwiz-ajax-search.css && cleancss -o public/css/searchwiz-search.min.css public/css/searchwiz-search.css",
+    "build:js": "terser admin/js/searchwiz-admin.js -o admin/js/searchwiz-admin.min.js -c -m && terser public/js/searchwiz-ajax-search.js -o public/js/searchwiz-ajax-search.min.js -c -m && terser public/js/searchwiz-search.js -o public/js/searchwiz-search.min.js -c -m && terser public/js/sw-highlight.js -o public/js/sw-highlight.min.js -c -m",
+    "start": "wp-scripts start react/index.js --output-path=public/dist",
+    "dev": "wp-scripts start public/react/index.js --output-path=public/dist --mode=development",
+    "watch": "wp-scripts start public/react/index.js --output-path=public/dist --watch",
+    "test": "wp-scripts test-unit-js",
+    "test:coverage": "wp-scripts test-unit-js --coverage --coverageDirectory=coverage",
+    "test:watch": "wp-scripts test-unit-js --watch",
+    "lint:js": "wp-scripts lint-js react",
+    "lint:css": "wp-scripts lint-style react/**/*.css public/css/**/*.css admin/css/**/*.css",
+    "lint:all": "npm run lint:js && npm run lint:css",
+    "format": "wp-scripts format public/react",
+    "deploy": "npm run build && ../../scripts/deploy.sh",
+    "clean": "rm -rf public/dist/* && rm -rf node_modules*"
+  },
+  "keywords": [
+    "wordpress",
+    "search",
+    "ajax",
+    "react"
+  ],
+  "author": "SearchWiz Team",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.0",
+    "@testing-library/react": "^14.2.0",
+    "@wordpress/scripts": "^27.0.0",
+    "clean-css-cli": "^5.6.3",
+    "identity-obj-proxy": "^3.0.0",
+    "terser": "^5.36.0"
+  },
+  "browserslist": [
+    "extends @wordpress/browserslist-config"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@wordpress/i18n": "^6.6.0"
+  }
+}

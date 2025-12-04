@@ -1,0 +1,115 @@
+/**
+ * SearchWiz React - Main Styles
+ * Mobile-first responsive design
+ */
+
+:root {
+  --sw-primary: #0073aa;
+  --sw-secondary: #f0f0f0;
+  --sw-text: #333333;
+  --sw-text-light: #666666;
+  --sw-border: #e0e0e0;
+  --sw-highlight: #fff9e6;
+  --sw-radius: 8px;
+  --sw-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --sw-transition: all 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Container */
+.searchwiz-results-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 20px 0;
+  padding: 0 15px;
+}
+
+/* Grid Layout - Mobile First */
+.searchwiz-results-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  width: 100%;
+}
+
+/* Tablet: 2 columns */
+@media (min-width: 768px) {
+  .searchwiz-results-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+  }
+}
+
+/* Desktop: 3 columns */
+@media (min-width: 1024px) {
+  .searchwiz-results-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* No Results State */
+.searchwiz-no-results {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--sw-text-light);
+  background: var(--sw-secondary);
+  border-radius: var(--sw-radius);
+}
+
+.searchwiz-no-results p {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Error State */
+.searchwiz-error {
+  padding: 16px;
+  background: #fee;
+  border-left: 4px solid #c00;
+  border-radius: var(--sw-radius);
+  color: #c00;
+  margin-bottom: 20px;
+}
+
+.searchwiz-error p {
+  margin: 0;
+}
+
+/* Loading State */
+.searchwiz-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  color: var(--sw-text-light);
+}
+
+.searchwiz-loading p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+/* Mark/Highlight - Make it VERY visible */
+mark {
+  background: #ffeb3b !important; /* Bright yellow */
+  color: #000 !important;
+  padding: 2px 4px !important;
+  border-radius: 2px !important;
+  font-weight: 700 !important;  /* Bold */
+}
+
+/* Mobile optimization */
+@media (max-width: 600px) {
+  .searchwiz-results-container {
+    margin: 15px 0;
+    padding: 0 10px;
+  }
+
+  .searchwiz-results-grid {
+    gap: 12px;
+  }
+}

@@ -1,0 +1,2106 @@
+# Copyright (C) 2025 Search Wiz
+# This file is distributed under the GPL2+.
+msgid ""
+msgstr ""
+"Project-Id-Version: SearchWiz 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/searchwiz\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-10-21T01:24:54+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: searchwiz\n"
+
+#. Plugin Name of the plugin
+#. translators: %1: Product Name %2 Rating
+#: searchwiz.php
+#: admin/class-sw-admin.php:194
+#: admin/class-sw-admin.php:428
+#: admin/class-sw-admin.php:429
+#: includes/class-sw-admin-public.php:82
+#: includes/class-sw-widget.php:13
+msgid "SearchWiz"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: searchwiz.php
+msgid "https://www.searchwiz.ai"
+msgstr ""
+
+#. Description of the plugin
+#: searchwiz.php
+msgid "Smart WordPress search with instant AJAX results and intelligent content discovery."
+msgstr ""
+
+#. Author of the plugin
+#: searchwiz.php
+msgid "Search Wiz"
+msgstr ""
+
+#: admin/class-sw-admin.php:63
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+#: admin/class-sw-admin.php:137
+#: admin/class-sw-settings-fields.php:625
+#: admin/partials/search-form.php:23
+msgid "Edit Search Form"
+msgstr ""
+
+#: admin/class-sw-admin.php:138
+msgid "Click on the search form title to edit it."
+msgstr ""
+
+#: admin/class-sw-admin.php:160
+#: admin/class-sw-admin.php:478
+#: admin/class-sw-help.php:64
+#: admin/class-sw-help.php:102
+#: includes/class-sw-index-options.php:649
+msgid "Settings"
+msgstr ""
+
+#: admin/class-sw-admin.php:177
+msgid "View SearchWiz documentation"
+msgstr ""
+
+#: admin/class-sw-admin.php:177
+#: admin/class-sw-help.php:118
+msgid "Docs"
+msgstr ""
+
+#: admin/class-sw-admin.php:178
+msgid "Visit plugin customer support"
+msgstr ""
+
+#: admin/class-sw-admin.php:178
+#: admin/class-sw-help.php:119
+#: admin/partials/search-form.php:221
+#: admin/partials/settings-form.php:149
+msgid "Support"
+msgstr ""
+
+#. translators: %1: Product Name %2 Rating
+#: admin/class-sw-admin.php:194
+#, php-format
+msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr ""
+
+#. translators: %1: Product Name %2 Rating
+#: admin/class-sw-admin.php:194
+msgid "Thanks :)"
+msgstr ""
+
+#: admin/class-sw-admin.php:225
+msgid "Dismiss"
+msgstr ""
+
+#. translators: %s: User name
+#: admin/class-sw-admin.php:228
+#, php-format
+msgid "Hey %s, it's the team from SearchWiz. You have used this plugin for some time now, and I hope you like it!"
+msgstr ""
+
+#. translators: %s: Product name
+#: admin/class-sw-admin.php:231
+#, php-format
+msgid "We have spent countless hours developing %s, and it would mean a lot to us if you support it with a quick review on WordPress.org."
+msgstr ""
+
+#: admin/class-sw-admin.php:234
+msgid "Review SearchWiz"
+msgstr ""
+
+#: admin/class-sw-admin.php:235
+msgid "No, thanks"
+msgstr ""
+
+#: admin/class-sw-admin.php:278
+msgid "No posts found"
+msgstr ""
+
+#: admin/class-sw-admin.php:374
+msgid "Search form created."
+msgstr ""
+
+#: admin/class-sw-admin.php:376
+msgid "Search form saved."
+msgstr ""
+
+#: admin/class-sw-admin.php:378
+msgid "Search form deleted."
+msgstr ""
+
+#: admin/class-sw-admin.php:380
+msgid "Search form reset."
+msgstr ""
+
+#: admin/class-sw-admin.php:382
+msgid "Index settings reset."
+msgstr ""
+
+#: admin/class-sw-admin.php:389
+msgid "There was an error saving the search form."
+msgstr ""
+
+#: admin/class-sw-admin.php:394
+msgid "Validation error occurred."
+msgstr ""
+
+#: admin/class-sw-admin.php:395
+#: admin/class-sw-admin.php:403
+#: admin/class-sw-help.php:35
+#: admin/class-sw-help.php:90
+msgid "Includes"
+msgstr ""
+
+#: admin/class-sw-admin.php:396
+#: admin/class-sw-admin.php:406
+#: admin/class-sw-help.php:40
+#: admin/class-sw-help.php:91
+msgid "Excludes"
+msgstr ""
+
+#. translators: %1: Data, %2: Includes, %3: Excludes
+#: admin/class-sw-admin.php:413
+#, php-format
+msgid "Please make sure you have not selected similar %1$s fields in the search form %2$s and %3$s sections."
+msgstr ""
+
+#: admin/class-sw-admin.php:438
+#: admin/class-sw-admin.php:439
+#: admin/class-sw-admin.php:512
+#: includes/class-sw-search-form.php:94
+msgid "Search Forms"
+msgstr ""
+
+#: admin/class-sw-admin.php:449
+#: admin/class-sw-admin.php:458
+#: admin/class-sw-admin.php:518
+#: admin/partials/search-form.php:21
+#: admin/partials/search-form.php:31
+msgid "Add New Search Form"
+msgstr ""
+
+#: admin/class-sw-admin.php:450
+#: admin/class-sw-admin.php:459
+msgid "Add New"
+msgstr ""
+
+#: admin/class-sw-admin.php:468
+#: admin/class-sw-admin.php:469
+#: admin/class-sw-help.php:59
+#: admin/class-sw-help.php:101
+msgid "Menu Search"
+msgstr ""
+
+#: admin/class-sw-admin.php:477
+#: admin/partials/settings-form.php:20
+msgid "SearchWiz Settings"
+msgstr ""
+
+#. translators: %s : Search Input string
+#: admin/class-sw-admin.php:523
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/class-sw-admin.php:538
+msgid "Find Search Forms"
+msgstr ""
+
+#: admin/class-sw-admin.php:578
+msgid "You are not allowed to edit this item."
+msgstr ""
+
+#: admin/class-sw-admin.php:668
+msgid "You are not allowed to reset this item."
+msgstr ""
+
+#: admin/class-sw-admin.php:693
+msgid "You are not allowed to copy this item."
+msgstr ""
+
+#: admin/class-sw-admin.php:724
+msgid "You are not allowed to delete this item."
+msgstr ""
+
+#: admin/class-sw-admin.php:727
+msgid "Error in deleting."
+msgstr ""
+
+#: admin/class-sw-admin.php:954
+msgid "Save Form"
+msgstr ""
+
+#: admin/class-sw-editor.php:80
+msgid "The requested section does not exist."
+msgstr ""
+
+#: admin/class-sw-editor.php:114
+#: admin/partials/search-form.php:130
+#: includes/class-sw-admin-public.php:174
+#: includes/class-sw-search-form.php:369
+#: includes/class-sw-search-form.php:441
+#: public/class-sw-public.php:209
+#: public/class-sw-public.php:250
+msgid "Search"
+msgstr ""
+
+#: admin/class-sw-editor.php:116
+#: admin/partials/search-form.php:135
+msgid "Exclude"
+msgstr ""
+
+#: admin/class-sw-editor.php:150
+#: admin/class-sw-settings-fields.php:283
+msgid "Post Types"
+msgstr ""
+
+#: admin/class-sw-editor.php:153
+#: admin/class-sw-editor.php:524
+#: admin/class-sw-editor.php:1011
+#: admin/class-sw-editor.php:1875
+#: admin/class-sw-editor.php:2094
+#: admin/class-sw-editor.php:2243
+#: admin/class-sw-editor.php:2437
+#: admin/class-sw-settings-fields.php:108
+msgid "Expand All"
+msgstr ""
+
+#: admin/class-sw-editor.php:155
+#: admin/class-sw-editor.php:526
+#: admin/class-sw-editor.php:1014
+#: admin/class-sw-editor.php:1877
+#: admin/class-sw-editor.php:2096
+#: admin/class-sw-editor.php:2245
+#: admin/class-sw-editor.php:2439
+#: admin/class-sw-settings-fields.php:110
+msgid "Collapse All"
+msgstr ""
+
+#: admin/class-sw-editor.php:160
+msgid "Search selected post types."
+msgstr ""
+
+#: admin/class-sw-editor.php:187
+#: admin/class-sw-editor.php:194
+#: admin/class-sw-settings-index-fields.php:281
+#: admin/class-sw-settings-index-fields.php:290
+msgid "Select Post Types"
+msgstr ""
+
+#: admin/class-sw-editor.php:252
+#: admin/class-sw-settings-index-fields.php:361
+msgid "No post types registered on the site."
+msgstr ""
+
+#: admin/class-sw-editor.php:274
+msgid "Do not display post_type in the search URL"
+msgstr ""
+
+#: admin/class-sw-editor.php:302
+#: admin/class-sw-editor.php:1856
+msgid "( WooCommerce )"
+msgstr ""
+
+#: admin/class-sw-editor.php:309
+#: admin/class-sw-editor.php:1859
+msgid "( Images, Videos, Audios, Docs, PDFs, Files & Attachments  )"
+msgstr ""
+
+#. translators: %s: Post type
+#: admin/class-sw-editor.php:341
+#, php-format
+msgid "The %s are not searchable as the search form is configured to only search specific posts of another post type."
+msgstr ""
+
+#: admin/class-sw-editor.php:364
+#: admin/class-sw-editor.php:396
+#: admin/class-sw-editor.php:463
+#: admin/class-sw-editor.php:605
+#: admin/class-sw-editor.php:1918
+#: admin/class-sw-editor.php:1975
+#: admin/class-sw-editor.php:2033
+#: admin/class-sw-editor.php:2114
+#: admin/class-sw-settings-index-fields.php:622
+msgid "Search.."
+msgstr ""
+
+#: admin/class-sw-editor.php:368
+#: admin/class-sw-editor.php:1922
+msgid "Load All"
+msgstr ""
+
+#: admin/class-sw-editor.php:371
+#: admin/class-sw-editor.php:406
+#: admin/class-sw-editor.php:471
+#: admin/class-sw-editor.php:615
+#: admin/class-sw-editor.php:1930
+#: admin/class-sw-editor.php:1984
+#: admin/class-sw-editor.php:2041
+#: admin/class-sw-editor.php:2125
+#: admin/class-sw-settings-index-fields.php:658
+msgid "Hold down the control (ctrl) or command button to select multiple options."
+msgstr ""
+
+#. translators: %s: Label name
+#: admin/class-sw-editor.php:374
+#: admin/class-sw-editor.php:1928
+#, php-format
+msgid "No %s created."
+msgstr ""
+
+#: admin/class-sw-editor.php:436
+msgid "Search product SKU"
+msgstr ""
+
+#: admin/class-sw-editor.php:439
+msgid "Search product variation"
+msgstr ""
+
+#: admin/class-sw-editor.php:473
+msgid "Selected File Types :"
+msgstr ""
+
+#: admin/class-sw-editor.php:481
+#: admin/class-sw-editor.php:2051
+msgid "Search all MIME types"
+msgstr ""
+
+#: admin/class-sw-editor.php:483
+msgid "Search only selected  MIME types"
+msgstr ""
+
+#: admin/class-sw-editor.php:487
+msgid "Search Images"
+msgstr ""
+
+#: admin/class-sw-editor.php:489
+msgid "Search Videos"
+msgstr ""
+
+#: admin/class-sw-editor.php:491
+msgid "Search Audios"
+msgstr ""
+
+#: admin/class-sw-editor.php:493
+msgid "Search Text Files"
+msgstr ""
+
+#: admin/class-sw-editor.php:495
+msgid "Search PDF Files"
+msgstr ""
+
+#: admin/class-sw-editor.php:497
+msgid "Search Document Files"
+msgstr ""
+
+#. translators: %s: Section name
+#: admin/class-sw-editor.php:505
+#, php-format
+msgid "This search form is configured in the %s section to not search specific MIME types."
+msgstr ""
+
+#: admin/class-sw-editor.php:508
+#: admin/class-sw-editor.php:2078
+msgid "You are using WordPress version less than 4.9 which does not support searching by MIME type."
+msgstr ""
+
+#: admin/class-sw-editor.php:521
+#: admin/class-sw-editor.php:2091
+#: admin/class-sw-settings-fields.php:304
+msgid "Extras"
+msgstr ""
+
+#: admin/class-sw-editor.php:534
+msgid "Search Content"
+msgstr ""
+
+#: admin/class-sw-editor.php:581
+msgid "Note: The below option is disabled and set to OR as you have configured the search form to search multiple taxonomies."
+msgstr ""
+
+#: admin/class-sw-editor.php:586
+msgid "AND - Search posts having all the above selected category terms"
+msgstr ""
+
+#: admin/class-sw-editor.php:588
+msgid "OR - Search posts having any one of the above selected category terms"
+msgstr ""
+
+#: admin/class-sw-editor.php:596
+#: admin/class-sw-editor.php:2104
+#: admin/class-sw-settings-fields.php:297
+msgid "Custom Fields"
+msgstr ""
+
+#: admin/class-sw-editor.php:619
+msgid "Search selected custom fields values"
+msgstr ""
+
+#: admin/class-sw-editor.php:631
+#: admin/class-sw-editor.php:2203
+msgid "Post Status"
+msgstr ""
+
+#: admin/class-sw-editor.php:636
+msgid "Search posts having selected post statuses."
+msgstr ""
+
+#: admin/class-sw-editor.php:655
+msgid "Select Post Status"
+msgstr ""
+
+#: admin/class-sw-editor.php:676
+#: admin/class-sw-editor.php:2138
+msgid "Authors"
+msgstr ""
+
+#: admin/class-sw-editor.php:681
+msgid "Search posts created by selected authors."
+msgstr ""
+
+#: admin/class-sw-editor.php:699
+#: admin/class-sw-editor.php:701
+msgid "Searches all author posts"
+msgstr ""
+
+#: admin/class-sw-editor.php:733
+msgid "Search author Display Name and display the posts created by that author"
+msgstr ""
+
+#: admin/class-sw-editor.php:742
+msgid "Comments"
+msgstr ""
+
+#: admin/class-sw-editor.php:752
+msgid "Search posts having number of comments"
+msgstr ""
+
+#: admin/class-sw-editor.php:768
+msgid "NA"
+msgstr ""
+
+#: admin/class-sw-editor.php:778
+msgid "Search approved comment content"
+msgstr ""
+
+#: admin/class-sw-editor.php:787
+msgid "Password Protected"
+msgstr ""
+
+#: admin/class-sw-editor.php:794
+msgid "Search posts with or without passwords"
+msgstr ""
+
+#: admin/class-sw-editor.php:796
+msgid "Search posts with passwords"
+msgstr ""
+
+#: admin/class-sw-editor.php:798
+msgid "Search posts without passwords"
+msgstr ""
+
+#: admin/class-sw-editor.php:805
+#: admin/class-sw-editor.php:1232
+#: admin/class-sw-editor.php:1764
+#: admin/class-sw-list-table.php:33
+msgid "Date"
+msgstr ""
+
+#: admin/class-sw-editor.php:810
+msgid "Search posts created only in the specified date range."
+msgstr ""
+
+#: admin/class-sw-editor.php:815
+msgid "From"
+msgstr ""
+
+#: admin/class-sw-editor.php:815
+msgid "To"
+msgstr ""
+
+#: admin/class-sw-editor.php:840
+#: admin/partials/search-form.php:142
+msgid "Design Search Form Colors, Text and Style"
+msgstr ""
+
+#: admin/class-sw-editor.php:867
+#: admin/class-sw-editor.php:894
+msgid "Enable Search Form Customization"
+msgstr ""
+
+#: admin/class-sw-editor.php:884
+#: includes/class-sw-search-form.php:467
+msgid "Customizer"
+msgstr ""
+
+#: admin/class-sw-editor.php:900
+msgid "Use below customizer to customize search form colors, text and search form style."
+msgstr ""
+
+#: admin/class-sw-editor.php:909
+msgid "Search Form Customizer"
+msgstr ""
+
+#: admin/class-sw-editor.php:955
+msgid "Nothing found"
+msgstr ""
+
+#: admin/class-sw-editor.php:958
+msgid "View All"
+msgstr ""
+
+#: admin/class-sw-editor.php:961
+msgid "More Results.."
+msgstr ""
+
+#: admin/class-sw-editor.php:971
+#: admin/partials/search-form.php:147
+msgid "Configure AJAX Search"
+msgstr ""
+
+#: admin/class-sw-editor.php:996
+#: admin/class-sw-editor.php:1022
+#: admin/class-sw-editor.php:1475
+msgid "Enable AJAX Search"
+msgstr ""
+
+#: admin/class-sw-editor.php:1007
+msgid "AJAX Search Results"
+msgstr ""
+
+#: admin/class-sw-editor.php:1025
+msgid "Display selected content in the search results."
+msgstr ""
+
+#: admin/class-sw-editor.php:1050
+msgid "Description"
+msgstr ""
+
+#: admin/class-sw-editor.php:1072
+msgid "Excerpt"
+msgstr ""
+
+#: admin/class-sw-editor.php:1090
+msgid "Content"
+msgstr ""
+
+#: admin/class-sw-editor.php:1110
+msgid "Description Length."
+msgstr ""
+
+#: admin/class-sw-editor.php:1132
+msgid "Image"
+msgstr ""
+
+#: admin/class-sw-editor.php:1157
+msgid "Categories"
+msgstr ""
+
+#: admin/class-sw-editor.php:1182
+msgid "Tags"
+msgstr ""
+
+#: admin/class-sw-editor.php:1207
+msgid "Author"
+msgstr ""
+
+#: admin/class-sw-editor.php:1251
+msgid "Minimum number of characters required to run ajax search."
+msgstr ""
+
+#: admin/class-sw-editor.php:1268
+msgid "Search results box max height."
+msgstr ""
+
+#: admin/class-sw-editor.php:1273
+msgid "Configure the plugin text displayed in the search results."
+msgstr ""
+
+#: admin/class-sw-editor.php:1290
+msgid "Text when there is no search results. HTML tags is allowed."
+msgstr ""
+
+#: admin/class-sw-editor.php:1313
+msgid "Show 'More Results..' text in the bottom of the search results box"
+msgstr ""
+
+#: admin/class-sw-editor.php:1333
+msgid "Text for the \"More Results..\"."
+msgstr ""
+
+#: admin/class-sw-editor.php:1356
+msgid "Redirect to search results page clicking on the 'More Results..' text"
+msgstr ""
+
+#: admin/class-sw-editor.php:1380
+msgid "View All Result - Show link to search results page at the bottom of search results block."
+msgstr ""
+
+#: admin/class-sw-editor.php:1403
+msgid "Text for the \"View All\" which shown at the bottom of the search result."
+msgstr ""
+
+#: admin/class-sw-editor.php:1410
+msgid "Configure how the search button should work clicking on it."
+msgstr ""
+
+#: admin/class-sw-editor.php:1428
+msgid "Search button displays search results page"
+msgstr ""
+
+#: admin/class-sw-editor.php:1447
+msgid "Search button displays ajax search results"
+msgstr ""
+
+#: admin/class-sw-editor.php:1459
+#: admin/class-sw-help.php:144
+msgid "WooCommerce"
+msgstr ""
+
+#: admin/class-sw-editor.php:1478
+msgid "Display selected WooCommerce content in the search results."
+msgstr ""
+
+#: admin/class-sw-editor.php:1499
+#: admin/class-sw-editor.php:1769
+msgid "Price"
+msgstr ""
+
+#: admin/class-sw-editor.php:1524
+msgid "Hide Price for Out of Stock Products"
+msgstr ""
+
+#: admin/class-sw-editor.php:1549
+msgid "Sale Badge"
+msgstr ""
+
+#: admin/class-sw-editor.php:1574
+msgid "SKU"
+msgstr ""
+
+#: admin/class-sw-editor.php:1599
+msgid "Stock Status"
+msgstr ""
+
+#: admin/class-sw-editor.php:1624
+#: public/class-sw-ajax.php:470
+msgid "Featured Icon"
+msgstr ""
+
+#: admin/class-sw-editor.php:1649
+msgid "Matching Categories"
+msgstr ""
+
+#: admin/class-sw-editor.php:1674
+msgid "Matching Tags"
+msgstr ""
+
+#: admin/class-sw-editor.php:1699
+msgid "Details Box"
+msgstr ""
+
+#: admin/class-sw-editor.php:1709
+msgid "Below options only apply to matching categories or tags."
+msgstr ""
+
+#: admin/class-sw-editor.php:1715
+msgid "Product List"
+msgstr ""
+
+#: admin/class-sw-editor.php:1728
+msgid "All Product"
+msgstr ""
+
+#: admin/class-sw-editor.php:1733
+msgid "Featured Products"
+msgstr ""
+
+#: admin/class-sw-editor.php:1738
+msgid "On-sale Products</option>"
+msgstr ""
+
+#: admin/class-sw-editor.php:1751
+msgid "Order by"
+msgstr ""
+
+#: admin/class-sw-editor.php:1774
+msgid "Random"
+msgstr ""
+
+#: admin/class-sw-editor.php:1779
+msgid "Sales"
+msgstr ""
+
+#: admin/class-sw-editor.php:1792
+msgid "Order"
+msgstr ""
+
+#: admin/class-sw-editor.php:1805
+msgid "ASC"
+msgstr ""
+
+#: admin/class-sw-editor.php:1810
+msgid "DESC"
+msgstr ""
+
+#: admin/class-sw-editor.php:1833
+#: admin/partials/search-form.php:137
+msgid "Exclude Content From Search"
+msgstr ""
+
+#. translators: %s: Section name
+#: admin/class-sw-editor.php:1940
+#, php-format
+msgid "The search form is configured in the %s section to only search specific posts of another post type."
+msgstr ""
+
+#: admin/class-sw-editor.php:2014
+msgid "Exclude 'Out of Stock' products from search"
+msgstr ""
+
+#: admin/class-sw-editor.php:2043
+msgid "Excluded File Types :"
+msgstr ""
+
+#: admin/class-sw-editor.php:2053
+msgid "Exclude selected  MIME types from search"
+msgstr ""
+
+#: admin/class-sw-editor.php:2057
+msgid "Exclude Images"
+msgstr ""
+
+#: admin/class-sw-editor.php:2059
+msgid "Exclude Videos"
+msgstr ""
+
+#: admin/class-sw-editor.php:2061
+msgid "Exclude Audios"
+msgstr ""
+
+#: admin/class-sw-editor.php:2063
+msgid "Exclude Text Files"
+msgstr ""
+
+#: admin/class-sw-editor.php:2065
+msgid "Exclude PDF Files"
+msgstr ""
+
+#: admin/class-sw-editor.php:2067
+msgid "Exclude Document Files"
+msgstr ""
+
+#: admin/class-sw-editor.php:2129
+msgid "Exclude from search having selected custom fields"
+msgstr ""
+
+#: admin/class-sw-editor.php:2143
+msgid "Exclude posts from search created by selected authors."
+msgstr ""
+
+#: admin/class-sw-editor.php:2167
+#: admin/class-sw-editor.php:2169
+msgid "Search all author posts"
+msgstr ""
+
+#: admin/class-sw-editor.php:2208
+msgid "Exclude posts from search having selected post statuses."
+msgstr ""
+
+#: admin/class-sw-editor.php:2213
+msgid "Exclude sticky posts from search"
+msgstr ""
+
+#: admin/class-sw-editor.php:2228
+#: admin/partials/search-form.php:152
+msgid "Advanced Search Form Options"
+msgstr ""
+
+#: admin/class-sw-editor.php:2240
+msgid "Posts Per Page"
+msgstr ""
+
+#: admin/class-sw-editor.php:2249
+msgid "Display selected number of posts in search results."
+msgstr ""
+
+#: admin/class-sw-editor.php:2269
+msgid "Order Search Results"
+msgstr ""
+
+#: admin/class-sw-editor.php:2273
+msgid "Display posts on search results page ordered by selected options."
+msgstr ""
+
+#: admin/class-sw-editor.php:2318
+msgid "Highlight Search Terms"
+msgstr ""
+
+#: admin/class-sw-editor.php:2325
+msgid "Highlight searched terms on search results page"
+msgstr ""
+
+#: admin/class-sw-editor.php:2328
+msgid "Select text highlight color"
+msgstr ""
+
+#: admin/class-sw-editor.php:2337
+msgid "Search All Or Any Search Terms"
+msgstr ""
+
+#: admin/class-sw-editor.php:2342
+msgid "Select whether to search posts having all or any of the words being searched."
+msgstr ""
+
+#: admin/class-sw-editor.php:2347
+msgid "OR - Display content having any of the search terms"
+msgstr ""
+
+#: admin/class-sw-editor.php:2349
+msgid "AND - Display content having all the search terms"
+msgstr ""
+
+#: admin/class-sw-editor.php:2358
+msgid "Fuzzy Matching"
+msgstr ""
+
+#: admin/class-sw-editor.php:2362
+msgid "Select whether to search posts having whole or partial word being searched."
+msgstr ""
+
+#: admin/class-sw-editor.php:2367
+msgid "Whole - Search posts that include the whole search term"
+msgstr ""
+
+#: admin/class-sw-editor.php:2369
+msgid "Partial - Also search words in the posts that begins or ends with the search term"
+msgstr ""
+
+#: admin/class-sw-editor.php:2371
+msgid "Anywhere - Also search words in the posts that have the search term in any position of the word"
+msgstr ""
+
+#: admin/class-sw-editor.php:2381
+msgid "Keyword Stemming"
+msgstr ""
+
+#: admin/class-sw-editor.php:2386
+msgid "Select whether to search the base word of a searched keyword."
+msgstr ""
+
+#: admin/class-sw-editor.php:2387
+msgid "For Example: If you search \"doing\" then it also searches base word of \"doing\" that is \"do\" in the specified post types."
+msgstr ""
+
+#: admin/class-sw-editor.php:2388
+msgid "Not recommended to use when Fuzzy Matching option is set to Whole."
+msgstr ""
+
+#: admin/class-sw-editor.php:2394
+msgid "Also search base word of searched keyword"
+msgstr ""
+
+#: admin/class-sw-editor.php:2404
+msgid "Search Engine"
+msgstr ""
+
+#: admin/class-sw-editor.php:2409
+msgid "Select which search engine to use."
+msgstr ""
+
+#: admin/class-sw-editor.php:2414
+msgid "Default WordPress Search Engine"
+msgstr ""
+
+#: admin/class-sw-editor.php:2416
+#: admin/class-sw-editor.php:2591
+msgid "Inverted Index Search Engine"
+msgstr ""
+
+#: admin/class-sw-editor.php:2434
+msgid "Others"
+msgstr ""
+
+#: admin/class-sw-editor.php:2446
+msgid "Display sticky posts to the start of the search results page"
+msgstr ""
+
+#: admin/class-sw-editor.php:2449
+msgid "Display search form only for site administrator"
+msgstr ""
+
+#: admin/class-sw-editor.php:2452
+msgid "Disable this search form"
+msgstr ""
+
+#: admin/class-sw-editor.php:2454
+msgid "Select whether to display an error when user perform search without any search word."
+msgstr ""
+
+#: admin/class-sw-editor.php:2458
+msgid "Display an error for empty search query"
+msgstr ""
+
+#. translators: %s post type
+#: admin/class-sw-editor.php:2522
+#, php-format
+msgid "The %s post type is not selected in Index"
+msgid_plural "The %s post types are not selected in Index"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s meta field
+#: admin/class-sw-editor.php:2537
+#, php-format
+msgid "The %s meta field is not selected in Index"
+msgid_plural "The %s meta fields are not selected in Index"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-sw-editor.php:2547
+msgid "The post title is not selected in Index"
+msgstr ""
+
+#: admin/class-sw-editor.php:2552
+msgid "The post content is not selected in Index"
+msgstr ""
+
+#: admin/class-sw-editor.php:2557
+msgid "The post excerpt is not selected in Index"
+msgstr ""
+
+#: admin/class-sw-editor.php:2562
+msgid "The taxonomy title is not selected in Index"
+msgstr ""
+
+#: admin/class-sw-editor.php:2567
+msgid "The taxonomy description is not selected in Index"
+msgstr ""
+
+#: admin/class-sw-editor.php:2572
+msgid "The Author info is not selected in Index"
+msgstr ""
+
+#: admin/class-sw-editor.php:2577
+msgid "The comments are not selected in Index"
+msgstr ""
+
+#: admin/class-sw-editor.php:2582
+msgid "The product SKU is not selected in Index"
+msgstr ""
+
+#: admin/class-sw-editor.php:2585
+msgid "The product variation is not selected in Index"
+msgstr ""
+
+#: admin/class-sw-editor.php:2590
+msgid "Anywhere Fuzzy Matching"
+msgstr ""
+
+#: admin/class-sw-editor.php:2594
+msgid "It is not recommended to use the"
+msgstr ""
+
+#: admin/class-sw-editor.php:2596
+msgid "option along with"
+msgstr ""
+
+#: admin/class-sw-help.php:16
+#: admin/class-sw-help.php:30
+#: admin/class-sw-help.php:54
+msgid "Overview"
+msgstr ""
+
+#: admin/class-sw-help.php:21
+msgid "Available Actions"
+msgstr ""
+
+#: admin/class-sw-help.php:45
+#: admin/class-sw-help.php:92
+#: admin/partials/search-form.php:150
+msgid "Options"
+msgstr ""
+
+#: admin/class-sw-help.php:69
+#: admin/class-sw-help.php:103
+msgid "Index"
+msgstr ""
+
+#: admin/class-sw-help.php:81
+msgid "On this screen, you can manage search forms provided by SearchWiz plugin. You can create and manage an unlimited number of search forms. Each search form has a unique ID and search form shortcode ([searchwiz-search ...]). To insert a search form into a post or a text widget, insert the shortcode into the target."
+msgstr ""
+
+#: admin/class-sw-help.php:83
+msgid "Hovering over a row in the search forms list will display action links that allow you to manage your search form. You can perform the following actions:"
+msgstr ""
+
+#: admin/class-sw-help.php:84
+#: admin/class-sw-list-table.php:158
+#: admin/class-sw-settings-fields.php:777
+#: admin/class-sw-settings-fields.php:840
+#: includes/class-sw-search-form.php:463
+msgid "Edit"
+msgstr ""
+
+#: admin/class-sw-help.php:84
+msgid "Navigates to the editing screen for that search form. You can also reach that screen by clicking on the search form title."
+msgstr ""
+
+#: admin/class-sw-help.php:85
+#: admin/class-sw-list-table.php:168
+#: admin/partials/search-form.php:205
+msgid "Duplicate"
+msgstr ""
+
+#: admin/class-sw-help.php:85
+msgid "Clones that search form. A cloned search form inherits all content from the original, but has a different ID."
+msgstr ""
+
+#: admin/class-sw-help.php:86
+#: admin/class-sw-list-table.php:119
+#: admin/class-sw-list-table.php:182
+#: admin/partials/search-form.php:189
+msgid "Delete"
+msgstr ""
+
+#: admin/class-sw-help.php:86
+msgid "Deletes the search form. The search form gets deleted permanently and its shortcode becomes void so you have to remove the shortcode if you have used it anywhere."
+msgstr ""
+
+#: admin/class-sw-help.php:88
+msgid "On this screen, you can edit a search form. A search form is comprised of the following components:"
+msgstr ""
+
+#: admin/class-sw-help.php:89
+#: admin/class-sw-list-table.php:31
+msgid "Title"
+msgstr ""
+
+#: admin/class-sw-help.php:89
+msgid "is the title of a search form. This title is only used for labeling a search form, and can be edited."
+msgstr ""
+
+#: admin/class-sw-help.php:90
+msgid "provides options to control which content on the site is searchable."
+msgstr ""
+
+#: admin/class-sw-help.php:91
+msgid "provides options to exclude specific content from the search on the site."
+msgstr ""
+
+#: admin/class-sw-help.php:92
+msgid "provides a place where you can customize overall behavior of this search form."
+msgstr ""
+
+#: admin/class-sw-help.php:94
+msgid "Control here which content you want to make searchable using this search form."
+msgstr ""
+
+#: admin/class-sw-help.php:96
+msgid "Configure the options here to exclude specific content from search perfomed using this search form."
+msgstr ""
+
+#: admin/class-sw-help.php:98
+msgid "Control here the overall behaviour of this search form."
+msgstr ""
+
+#: admin/class-sw-help.php:100
+msgid "On this screen, you can manage search added in the site navgation menu and configure settings that will affect all search forms and search functionality on the site. The settings screen comprised of the following sections:"
+msgstr ""
+
+#: admin/class-sw-help.php:101
+msgid "provides a place where you can customize the behavior of search form added in the site navgation menu."
+msgstr ""
+
+#: admin/class-sw-help.php:102
+msgid "provides options to configure sitewide search functionality."
+msgstr ""
+
+#: admin/class-sw-help.php:103
+msgid "provides options to configure sitewide index functionality."
+msgstr ""
+
+#: admin/class-sw-help.php:105
+msgid "Cofigure the options in this section to manage search added in the site navigation menu."
+msgstr ""
+
+#: admin/class-sw-help.php:107
+msgid "Configure options in this section to manage sitewide search functionality."
+msgstr ""
+
+#: admin/class-sw-help.php:109
+msgid "Configure options in this section to manage sitewide indexing functionality."
+msgstr ""
+
+#: admin/class-sw-help.php:117
+msgid "For more information:"
+msgstr ""
+
+#: admin/class-sw-help.php:120
+#: admin/partials/settings-form.php:151
+msgid "Give us a rating"
+msgstr ""
+
+#. translators: %s: Name of the plugin.
+#: admin/class-sw-help.php:146
+#, php-format
+msgid "Activate %s plugin to use this option."
+msgstr ""
+
+#: admin/class-sw-list-table.php:32
+msgid "Shortcode"
+msgstr ""
+
+#. translators: %s: title of search form
+#: admin/class-sw-list-table.php:148
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/class-sw-list-table.php:181
+#: admin/partials/search-form.php:189
+msgid ""
+"You are about to delete this search form.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: admin/class-sw-list-table.php:214
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#. translators: %s: time since the creation of the search form
+#: admin/class-sw-list-table.php:226
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: admin/class-sw-list-table.php:228
+msgid "d/m/Y"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:179
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:186
+msgid "Stopwords"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:193
+msgid "Synonyms"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:200
+msgid "Header Search"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:207
+msgid "Footer Search"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:214
+msgid "Mobile Search"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:221
+msgid "Plugin Files"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:228
+#: admin/class-sw-settings-fields.php:311
+msgid "Advanced"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:246
+msgid "Menu Search Settings"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:264
+#: admin/class-sw-settings-fields.php:376
+msgid "Search Analytics"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:290
+msgid "Taxonomies"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:330
+msgid "Invalid Custom CSS Code"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:339
+msgid "Invalid Stopwords"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:348
+msgid "Invalid Synonyms"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:363
+msgid "Configure Menu Search"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:389
+msgid "Advanced Website Search Settings"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:402
+msgid "Display search form on selected menu locations."
+msgstr ""
+
+#. translators: %1: Menu name %2: URL
+#: admin/class-sw-settings-fields.php:433
+#, php-format
+msgid "No menu assigned to navigation menu location in the %1\\$sMenus screen %2\\$%s."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:436
+msgid "Navigation menu location is not registered on the site."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:444
+msgid "Display search form on selected menus."
+msgstr ""
+
+#. translators: %1: Menu name %2: Screen name
+#: admin/class-sw-settings-fields.php:474
+msgid "No menu created in the %1\\$sMenus screen%2\\$s."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:495
+msgid "Display search form at the start of the navigation menu"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:502
+msgid "Select menu search form style."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:505
+msgid "Default"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:506
+msgid "Dropdown"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:507
+msgid "Sliding"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:508
+msgid "Full Width"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:509
+msgid "Popup"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:551
+msgid "Select menu magnifier icon color."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:567
+msgid "Display search form close icon"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:574
+msgid "Add menu title to display in place of search icon."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:587
+msgid "Select search form that will control menu search functionality."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:603
+#: admin/class-sw-settings-fields.php:755
+#: admin/class-sw-settings-fields.php:818
+msgid "None"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:633
+#: admin/class-sw-settings-fields.php:785
+#: admin/class-sw-settings-fields.php:848
+msgid "Create New"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:644
+msgid "Add class to search form menu item."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:653
+msgid "Add multiple classes seperated by space."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:660
+msgid "Add Google Custom Search( CSE ) search form code that will replace default search form."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:684
+msgid "Enabled"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:689
+msgid "Disabled"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:692
+msgid "Google Analytics 4 tracking for searches"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:697
+msgid "Search Analytics uses Google Analytics 4 to track searches."
+msgstr ""
+
+#. translators: %1: Feature name %2: Product name
+#: admin/class-sw-settings-fields.php:701
+#, php-format
+msgid "You need %1$s Google Analytics 4 %2$s to be installed on your site."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:704
+msgid "Data will be visible inside Google Analytics 4 'Events' and 'Site Search' report."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:707
+msgid "Events will be as below:"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:710
+msgid "Category - Results Found / Nothing Found"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:713
+msgid "Action - SearchWiz - ID"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:716
+msgid "Label - Value of search term"
+msgstr ""
+
+#. translators: %1: Feature %2: Product name
+#: admin/class-sw-settings-fields.php:720
+#, php-format
+msgid "Need to %1$s activate Site Search feature %2$s inside Google Analytics to display data inside 'Site Search' report."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:723
+msgid "Enable Site search Tracking option in Site Search Settings and set its parameters as below."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:726
+msgid "Query parameter - s"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:729
+msgid "Category parameter - id / result"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:739
+msgid "Select search form to display in site header( Not Menu )."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:792
+msgid "Please note that the above option displays search form in site header and not in navigation menu."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:801
+msgid "Select search form to display in site footer."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:870
+msgid "Display search form in site header on mobile devices"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:876
+msgid "If this site uses cache then please select the below option to display search form on mobile."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:886
+msgid "This site uses cache"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:897
+msgid "Add custom CSS code."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:913
+msgid "Add Stopwords that will not be searched."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:922
+msgid "Please separate multiple words with commas."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:932
+msgid "Add synonyms to make the searches find better results."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:936
+msgid "If you add bird = crow to the list of synonyms, searches for bird automatically become a search for bird crow and will thus match to posts that include either bird or crow."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:945
+msgid "The format here is key = value"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:948
+msgid "Please add every synonyms key = value pairs on new line."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:952
+msgid "This only works for search forms configured to search any of the search terms(OR) and not all search terms(AND) in the search form Options."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:961
+msgid "Enable below options to disable loading of plugin CSS and JavaScript files."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:964
+msgid "Do not load plugin CSS files"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:965
+msgid "Do not load plugin JavaScript files"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:998
+msgid "If checked, you have to add following plugin file code into your child theme CSS file."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:1017
+msgid "If checked, you have to add following plugin files code into your child theme JavaScript file."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:1049
+msgid "Warning: Use with caution."
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:1058
+msgid "Do not use Default Search Form to control WordPress default search functionality"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:1072
+msgid "Disable search functionality on entire website"
+msgstr ""
+
+#: admin/class-sw-settings-fields.php:1086
+msgid "Display easy edit links of search form on the website frontend to the admin users"
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:80
+msgid "Search Index"
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:99
+msgid "Automatically index content, when posts or comments are created (or updated)."
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:104
+msgid "Build Index"
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:139
+msgid "Index Configurations"
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:176
+msgid "Delete Index"
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:192
+msgid "Time Elapsed:"
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:209
+msgid "To use Index Search, please use \"Inverted Index Search Engine\" option in the search form."
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:211
+msgid "SearchWiz -> Search Forms -> Edit Search Form -> Options -> Search Engine -> Inverted Index Search Engine"
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:246
+msgid "Index Post"
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:270
+msgid "Index selected post types."
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:391
+msgid "Index selected taxonomies."
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:449
+#: admin/class-sw-settings-index-fields.php:458
+msgid "Select Taxonomies"
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:529
+msgid "No taxonomies registered on the site."
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:562
+msgid "Index selected custom fields."
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:674
+msgid "Index selected content."
+msgstr ""
+
+#: admin/class-sw-settings-index-fields.php:779
+msgid "Punctuation control"
+msgstr ""
+
+#: admin/partials/search-form.php:84
+msgid "Add title"
+msgstr ""
+
+#: admin/partials/search-form.php:96
+msgid "Editing the title of Default Search Form is restricted"
+msgstr ""
+
+#: admin/partials/search-form.php:108
+msgid "Copy this shortcode and paste it into your post, page, or text widget content:"
+msgstr ""
+
+#: admin/partials/search-form.php:111
+msgid "Please save search form to generate shortcode"
+msgstr ""
+
+#: admin/partials/search-form.php:116
+msgid "Click to copy shortcode"
+msgstr ""
+
+#: admin/partials/search-form.php:132
+msgid "Configure Searchable Content"
+msgstr ""
+
+#: admin/partials/search-form.php:140
+msgid "Design"
+msgstr ""
+
+#: admin/partials/search-form.php:145
+msgid "AJAX"
+msgstr ""
+
+#: admin/partials/search-form.php:199
+msgid "Save"
+msgstr ""
+
+#: admin/partials/search-form.php:209
+#: admin/partials/settings-form.php:132
+msgid "Reset"
+msgstr ""
+
+#: admin/partials/search-form.php:209
+msgid ""
+"You are about to reset this search form.\n"
+"  'Cancel' to stop, 'OK' to reset."
+msgstr ""
+
+#: admin/partials/search-form.php:220
+#: admin/partials/settings-form.php:148
+msgid "Documentation"
+msgstr ""
+
+#: admin/partials/search-form.php:222
+#: admin/partials/settings-form.php:150
+msgid "Contact Us"
+msgstr ""
+
+#: admin/partials/search-form.php:223
+msgid "Rate SearchWiz"
+msgstr ""
+
+#: admin/partials/settings-form.php:118
+msgid ""
+"You are about to reset this index settings.\n"
+"  'Cancel' to stop, 'OK' to reset."
+msgstr ""
+
+#: includes/class-sw-admin-public.php:118
+#: public/partials/sw-ajax-results.php:179
+msgid "Loader Image"
+msgstr ""
+
+#: includes/class-sw-admin-public.php:121
+msgid "AJAX loader image."
+msgstr ""
+
+#: includes/class-sw-admin-public.php:138
+msgid "Search Form Style"
+msgstr ""
+
+#: includes/class-sw-admin-public.php:139
+msgid "Search form submit button field style."
+msgstr ""
+
+#: includes/class-sw-admin-public.php:143
+msgid "Style 1"
+msgstr ""
+
+#: includes/class-sw-admin-public.php:147
+msgid "Style 2"
+msgstr ""
+
+#: includes/class-sw-admin-public.php:151
+msgid "Style 3"
+msgstr ""
+
+#: includes/class-sw-admin-public.php:161
+#: includes/class-sw-search-form.php:368
+msgid "Search here..."
+msgstr ""
+
+#: includes/class-sw-admin-public.php:165
+msgid "Text Box Placeholder"
+msgstr ""
+
+#: includes/class-sw-admin-public.php:178
+#: includes/class-sw-search-form.php:441
+msgid "Search Button"
+msgstr ""
+
+#: includes/class-sw-index-builder.php:164
+msgid "Post is not in selected post types"
+msgstr ""
+
+#: includes/class-sw-index-builder.php:170
+msgid "Post is a Jetpack contact form"
+msgstr ""
+
+#: includes/class-sw-index-builder.php:179
+msgid "Post marked as Yoast no index"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:217
+msgid "You are not allowed to reset these configurations."
+msgstr ""
+
+#: includes/class-sw-index-manager.php:272
+msgid "Content Status"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:276
+msgid "contents can be indexed."
+msgstr ""
+
+#: includes/class-sw-index-manager.php:279
+msgid "Index Status"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:283
+msgid "unique content in the index"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:288
+msgid "unique terms in the index"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:293
+msgid "index records"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:304
+msgid "Last build results:"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:315
+msgid "index error(s)"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:358
+#: includes/class-sw-index-manager.php:486
+msgid "Creating Index..."
+msgstr ""
+
+#: includes/class-sw-index-manager.php:360
+#: includes/class-sw-index-manager.php:698
+msgid "Create Index"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:361
+msgid "Pause Creating Index"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:362
+msgid "Pausing Creating Index"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:363
+msgid "Resume Creating Index"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:364
+msgid "Recreate Index"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:472
+msgid "indexed"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:474
+msgid "contents"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:478
+msgid "terms"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:480
+msgid "seconds"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:490
+msgid "Finished Creating Index."
+msgstr ""
+
+#: includes/class-sw-index-manager.php:501
+msgid "Error: Index is already executing. Try again in a few minutes."
+msgstr ""
+
+#: includes/class-sw-index-manager.php:503
+msgid "Error: Index was not created"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:672
+msgid "Deleting Index..."
+msgstr ""
+
+#: includes/class-sw-index-manager.php:691
+msgid "Index deleted"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:693
+msgid "Error: Index was not deleted"
+msgstr ""
+
+#: includes/class-sw-index-manager.php:740
+msgid "Indexing content..."
+msgstr ""
+
+#: includes/class-sw-index-manager.php:765
+msgid "Content Indexed ID: "
+msgstr ""
+
+#: includes/class-sw-index-manager.php:778
+msgid "Error: content was not indexed"
+msgstr ""
+
+#: includes/class-sw-index-model.php:585
+msgid "Could not save index rows"
+msgstr ""
+
+#: includes/class-sw-index-options.php:326
+msgid "Index all taxonomies ( of all post types )"
+msgstr ""
+
+#: includes/class-sw-index-options.php:327
+msgid "Index only selected taxonomies below"
+msgstr ""
+
+#: includes/class-sw-index-options.php:371
+msgid "Index visible custom fields values"
+msgstr ""
+
+#: includes/class-sw-index-options.php:372
+msgid "Index all custom fields values"
+msgstr ""
+
+#: includes/class-sw-index-options.php:373
+msgid "Index no custom fields values"
+msgstr ""
+
+#: includes/class-sw-index-options.php:374
+msgid "Index selected custom fields values"
+msgstr ""
+
+#. translators: %1: Post title %2 File title
+#: includes/class-sw-index-options.php:502
+#, php-format
+msgid "Index post title %1$s( File title )%2$s"
+msgstr ""
+
+#. translators: %1: Post content %2 File description
+#: includes/class-sw-index-options.php:504
+#, php-format
+msgid "Index post content %1$s( File description )%2$s"
+msgstr ""
+
+#. translators: %1: Post excerpt %2 File caption
+#: includes/class-sw-index-options.php:506
+#, php-format
+msgid "Index post excerpt %1$s( File caption )%2$s"
+msgstr ""
+
+#. translators: %1: Category title %2 Taxonomy title
+#: includes/class-sw-index-options.php:508
+#, php-format
+msgid "Index category/tag title %1$s( Taxonomy title )%2$s"
+msgstr ""
+
+#. translators: %1: Category decription %2 Taxonomy decription
+#: includes/class-sw-index-options.php:510
+#, php-format
+msgid "Index category/tag description %1$s( Taxonomy descripton )%2$s"
+msgstr ""
+
+#. translators: %1: Product SKU %2 Woocommerce title
+#: includes/class-sw-index-options.php:512
+#, php-format
+msgid "Index product SKU %1$s( WooCommerce )%2$s"
+msgstr ""
+
+#. translators: %1: Product Variation %2 Woocommerce title
+#: includes/class-sw-index-options.php:514
+#, php-format
+msgid "Index product variations %1$s( WooCommerce )%2$s"
+msgstr ""
+
+#: includes/class-sw-index-options.php:515
+msgid "Index approved comment content"
+msgstr ""
+
+#: includes/class-sw-index-options.php:516
+msgid "Index author display name "
+msgstr ""
+
+#: includes/class-sw-index-options.php:517
+msgid "Expand shortcodes before indexing "
+msgstr ""
+
+#: includes/class-sw-index-options.php:518
+msgid "Index posts marked as 'No Index' in Yoast SEO"
+msgstr ""
+
+#: includes/class-sw-index-options.php:569
+msgid "Minimum word length to index."
+msgstr ""
+
+#: includes/class-sw-index-options.php:570
+msgid "Throttle searches by limiting searches results to 500 per term."
+msgstr ""
+
+#: includes/class-sw-index-options.php:571
+msgid "Hyphens and dashes punctuation."
+msgstr ""
+
+#: includes/class-sw-index-options.php:572
+msgid "Apostrophes and quotes punctuation."
+msgstr ""
+
+#: includes/class-sw-index-options.php:573
+msgid "Ampersands punctuation."
+msgstr ""
+
+#: includes/class-sw-index-options.php:574
+msgid "Decimal separators punctuation."
+msgstr ""
+
+#: includes/class-sw-index-options.php:587
+msgid "Replace with space"
+msgstr ""
+
+#: includes/class-sw-index-options.php:588
+msgid "Keep"
+msgstr ""
+
+#: includes/class-sw-index-options.php:589
+msgid "Remove"
+msgstr ""
+
+#: includes/class-sw-search-form.php:95
+msgid "Search Form"
+msgstr ""
+
+#: includes/class-sw-search-form.php:147
+#: includes/class-sw-search-form.php:255
+msgid "Untitled"
+msgstr ""
+
+#: includes/class-sw-search-form.php:165
+msgid "property of a"
+msgstr ""
+
+#: includes/class-sw-search-form.php:165
+msgid "object is"
+msgstr ""
+
+#: includes/class-sw-search-form.php:165
+msgid "no longer accessible"
+msgstr ""
+
+#: includes/class-sw-search-form.php:165
+msgid "Use"
+msgstr ""
+
+#: includes/class-sw-search-form.php:165
+msgid "method instead."
+msgstr ""
+
+#: includes/class-sw-search-form.php:321
+msgid "Invalid search form."
+msgstr ""
+
+#: includes/class-sw-search-form.php:430
+msgid "Search for:"
+msgstr ""
+
+#: includes/class-sw-widget.php:14
+msgid "Displays searchwiz search form."
+msgstr ""
+
+#: includes/class-sw-widget.php:38
+msgid "Please select search form in the SearchWiz widget."
+msgstr ""
+
+#: includes/class-sw-widget.php:56
+msgid "Title:"
+msgstr ""
+
+#: includes/class-sw-widget.php:67
+msgid "Search Form:"
+msgstr ""
+
+#: includes/class-sw-widget.php:69
+msgid "Click to select Search Form"
+msgstr ""
+
+#: public/class-sw-ajax.php:360
+#: public/partials/sw-ajax-results.php:67
+msgid "Category"
+msgstr ""
+
+#: public/class-sw-ajax.php:362
+#: public/partials/sw-ajax-results.php:56
+msgid "Tag"
+msgstr ""
+
+#: public/class-sw-ajax.php:547
+msgid "Tagged with:"
+msgstr ""
+
+#: public/class-sw-ajax.php:573
+msgid "Categories:"
+msgstr ""
+
+#: public/class-sw-ajax.php:640
+msgid "In stock"
+msgstr ""
+
+#: public/class-sw-ajax.php:640
+msgid "Out of stock"
+msgstr ""
+
+#: public/class-sw-ajax.php:661
+#: public/dist/index.js:1
+#: react/components/ProductCard.jsx:138
+msgid "SKU:"
+msgstr ""
+
+#: public/class-sw-ajax.php:706
+msgid "Sale!"
+msgstr ""
+
+#: public/class-sw-public.php:204
+msgid "Search Title Link"
+msgstr ""
+
+#: public/class-sw-public.php:206
+#: public/class-sw-public.php:248
+msgid "Search Icon Link"
+msgstr ""
+
+#: public/partials/sw-ajax-results.php:26
+msgid "The index should be created for the search engine to work."
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/ProductCard.jsx:102
+msgid "In Stock"
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/ProductCard.jsx:102
+msgid "Out of Stock"
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/ProductCard.jsx:116
+msgid "SALE!"
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/ProductCard.jsx:124
+msgid "reviews"
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/SearchResults.jsx:203
+msgid "Failed to fetch results"
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/SearchResults.jsx:273
+msgid "Search Results"
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/SearchResults.jsx:276
+msgid "of"
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/SearchResults.jsx:276
+msgid "shown"
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/SearchResults.jsx:281
+msgid "for"
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/SearchResults.jsx:287
+msgid "Loading..."
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/SearchResults.jsx:294
+msgid "No results found for"
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/SearchResults.jsx:308
+msgid "Products"
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/SearchResults.jsx:321
+msgid "Pages & Posts"
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/SearchResults.jsx:338
+msgid "Loading more results..."
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/SearchResults.jsx:364
+msgid "All"
+msgstr ""
+
+#: public/dist/index.js:1
+#: react/components/SearchResults.jsx:364
+msgid "results shown"
+msgstr ""
+
+#: react/components/LoadingSpinner.jsx:13
+msgid "Searching..."
+msgstr ""
