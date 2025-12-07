@@ -80,7 +80,7 @@ class SearchWiz_Search_Form {
 		// Use SearchWiz as default if: default_search is 1 (enabled) OR not set (default enabled)
 		$use_searchwiz_default = ! isset( $is_settings['default_search'] ) || 1 === (int) $is_settings['default_search'];
 		if ( empty( $is_id ) && $use_searchwiz_default ) {
-			$page = get_page_by_path( 'default-search-form', OBJECT, 'is_search_form' );
+			$page = get_page_by_path( 'default-search-form', OBJECT, self::post_type );
 			if ( ! empty( $page ) ) {
 				$is_id = $page->ID;
 			}

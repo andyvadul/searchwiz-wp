@@ -126,17 +126,19 @@ class SearchWiz_Public {
 
         // Primary color
         if ( isset( $settings['primary_color'] ) && ! empty( $settings['primary_color'] ) ) {
-            $color = $settings['primary_color'];
-            $css .= "
-            .is-ajax-search-post .is-title a,
-            .searchwiz-product-card a,
-            #searchwiz-results-container a {
-                color: {$color} !important;
+            $color = sanitize_hex_color( $settings['primary_color'] );
+            if ( $color ) {
+                $css .= "
+                .is-ajax-search-post .is-title a,
+                .searchwiz-product-card a,
+                #searchwiz-results-container a {
+                    color: {$color} !important;
+                }
+                mark {
+                    background-color: {$color}33 !important; /* 20% opacity */
+                }
+                ";
             }
-            mark {
-                background-color: {$color}33 !important; /* 20% opacity */
-            }
-            ";
         }
 
         // Title font size
@@ -202,27 +204,31 @@ class SearchWiz_Public {
 
         // Search box border color
         if ( isset( $searchbox_settings['border_color'] ) && ! empty( $searchbox_settings['border_color'] ) ) {
-            $color = $searchbox_settings['border_color'];
-            $css .= "
-            .searchwiz-search-input,
-            input.dgwt-wcas-search-input,
-            .searchwiz-search-form input[type='search'] {
-                border-color: {$color} !important;
+            $color = sanitize_hex_color( $searchbox_settings['border_color'] );
+            if ( $color ) {
+                $css .= "
+                .searchwiz-search-input,
+                input.dgwt-wcas-search-input,
+                .searchwiz-search-form input[type='search'] {
+                    border-color: {$color} !important;
+                }
+                ";
             }
-            ";
         }
 
         // Search box focus color
         if ( isset( $searchbox_settings['focus_color'] ) && ! empty( $searchbox_settings['focus_color'] ) ) {
-            $color = $searchbox_settings['focus_color'];
-            $css .= "
-            .searchwiz-search-input:focus,
-            input.dgwt-wcas-search-input:focus,
-            .searchwiz-search-form input[type='search']:focus {
-                border-color: {$color} !important;
-                outline-color: {$color} !important;
+            $color = sanitize_hex_color( $searchbox_settings['focus_color'] );
+            if ( $color ) {
+                $css .= "
+                .searchwiz-search-input:focus,
+                input.dgwt-wcas-search-input:focus,
+                .searchwiz-search-form input[type='search']:focus {
+                    border-color: {$color} !important;
+                    outline-color: {$color} !important;
+                }
+                ";
             }
-            ";
         }
 
         return trim( $css );
@@ -1372,10 +1378,12 @@ class SearchWiz_Public {
     function get_menu_style_css() {
         $css = '';
         if ( isset( $this->opt['menu_style'] ) && 'default' !== $this->opt['menu_style'] && isset( $this->opt['menu_magnifier_color'] ) && !empty( $this->opt['menu_magnifier_color'] ) ) {
-            $color = esc_attr($this->opt['menu_magnifier_color']);
-            $css .= '.is-menu path.search-icon-path { fill: ' . $color . ';}';
-            $css .= 'body .popup-search-close:after, body .search-close:after { border-color: ' . $color . ';}';
-            $css .= 'body .popup-search-close:before, body .search-close:before { border-color: ' . $color . ';}';
+            $color = sanitize_hex_color( $this->opt['menu_magnifier_color'] );
+            if ( $color ) {
+                $css .= '.is-menu path.search-icon-path { fill: ' . $color . ';}';
+                $css .= 'body .popup-search-close:after, body .search-close:after { border-color: ' . $color . ';}';
+                $css .= 'body .popup-search-close:before, body .search-close:before { border-color: ' . $color . ';}';
+            }
         }
         // Custom CSS feature removed per WordPress.org plugin guidelines.
         // Users should use the WordPress Customizer CSS editor for custom styling.
