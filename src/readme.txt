@@ -13,7 +13,7 @@ Smart WordPress search with instant AJAX results and intelligent content discove
 == Source Code ==
 
 The full source code for all minified JavaScript and CSS files is available on GitHub:
-https://github.com/andyvadul/search_wiz
+https://github.com/andyvadul/searchwiz-wp
 
 Build tools used: @wordpress/scripts (npm run build)
 
