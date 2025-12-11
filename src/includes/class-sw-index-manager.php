@@ -787,6 +787,12 @@ class SearchWiz_Index_Manager extends SearchWiz_Base_Options {
 	 * }
 	 */
 	public function ajax_index_post() {
+		// Check user capabilities first (WordPress.org security requirement).
+		if ( ! current_user_can( 'manage_options' ) ) {
+			wp_send_json_error( esc_html__( "Error: You don't have permission to index posts.", 'searchwiz' ) );
+			wp_die();
+		}
+
 		$error   = true;
 		$post_id = ! empty( $_POST['post_id'] ) ? intval( $_POST['post_id'] ) : 0;
 		$results = '';
