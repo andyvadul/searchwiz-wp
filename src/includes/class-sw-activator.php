@@ -89,7 +89,44 @@ class SearchWiz_Activator {
 			wp_schedule_single_event( time() + 60, 'searchwiz_initial_index' );
 		}
 
+		// Migrate post type from old prefix to new prefix
+		self::migrate_post_type();
+
 		// Flush rewrite rules to register /sw endpoint
 		flush_rewrite_rules();
+	}
+
+	/**
+	 * Migrate search forms from old post type to new post type.
+	 *
+	 * This runs on plugin activation to handle upgrades from older versions
+	 * where the post type was 'is_search_form' instead of 'searchwiz_search_form'.
+	 *
+	 * @since 1.0.1
+	 */
+	public static function migrate_post_type() {
+		global $wpdb;
+
+		// Check if migration already done
+		if ( get_option( 'searchwiz_post_type_migrated' ) ) {
+			return;
+		}
+
+		// Update post type from is_search_form to searchwiz_search_form
+		$updated = $wpdb->update(
+			$wpdb->posts,
+			array( 'post_type' => 'searchwiz_search_form' ),
+			array( 'post_type' => 'is_search_form' ),
+			array( '%s' ),
+			array( '%s' )
+		);
+
+		// Log the migration for debugging
+		if ( false !== $updated ) {
+			error_log( sprintf( 'SearchWiz: Migrated %d search forms from is_search_form to searchwiz_search_form', $updated ) );
+		}
+
+		// Mark migration as complete
+		update_option( 'searchwiz_post_type_migrated', '1' );
 	}
 }

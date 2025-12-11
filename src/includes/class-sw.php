@@ -124,6 +124,7 @@ class SearchWiz_Loader {
 		add_action( 'wp_ajax_searchwiz_autosave_settings', array( $admin, 'ajax_autosave_settings' ) );
 		add_action( 'admin_enqueue_scripts', array( $admin, 'admin_enqueue_scripts' ) );
 		add_action( 'admin_init', array( $admin, 'admin_init' ) );
+		add_action( 'admin_init', array( 'SearchWiz_Activator', 'migrate_post_type' ) );
 		add_action( 'is_admin_notices', array( $admin, 'admin_updated_message' ) );
 		add_filter( 'map_meta_cap', array( $admin, 'map_meta_cap' ), 10, 4 );
 		add_filter( 'admin_footer_text', array( $admin, 'admin_footer_text' ), 1 );

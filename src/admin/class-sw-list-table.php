@@ -50,7 +50,7 @@ class SearchWiz_List_Table extends WP_List_Table {
 
 	function prepare_items() {
 		$current_screen = get_current_screen();
-		$per_page = $this->get_items_per_page( 'is_search_forms_per_page' );
+		$per_page = $this->get_items_per_page( 'searchwiz_search_forms_per_page' );
 
 		$this->_column_headers = $this->get_column_info();
 

@@ -824,7 +824,7 @@ class SearchWiz_Settings_Fields {
         SearchWiz_Help::help_info( $content );
         $args = array(
             'numberposts' => -1,
-            'post_type'   => 'is_search_form',
+            'post_type'   => SearchWiz_Search_Form::post_type,
             'order'       => 'ASC',
         );
         $posts = get_posts( $args );
@@ -980,7 +980,7 @@ class SearchWiz_Settings_Fields {
         echo esc_html__( 'Select search form to display in site header( Not Menu ).', 'searchwiz' ) . '<br /><br />';
         $args = array(
             'numberposts' => -1,
-            'post_type'   => 'is_search_form',
+            'post_type'   => SearchWiz_Search_Form::post_type,
         );
         $posts = get_posts( $args );
         ?>
@@ -1046,7 +1046,7 @@ class SearchWiz_Settings_Fields {
 		<?php 
         $args = array(
             'numberposts' => -1,
-            'post_type'   => 'is_search_form',
+            'post_type'   => SearchWiz_Search_Form::post_type,
         );
         $posts = get_posts( $args );
         if ( !empty( $posts ) ) {

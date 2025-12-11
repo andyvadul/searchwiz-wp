@@ -37,7 +37,7 @@ class SearchWiz_Widget extends WP_Widget {
 		if ( ! empty( $instance['search_form'] ) ) {
 				echo do_shortcode( '[searchwiz-search id="' . esc_attr( $instance['search_form'] ) . '"]' );
 		} else {
-			$page = get_page_by_path( 'default-search-form', OBJECT, 'is_search_form' );
+			$page = get_page_by_path( 'default-search-form', OBJECT, SearchWiz_Search_Form::post_type );
             if ( ! empty( $page ) ) {
 					echo do_shortcode( '[searchwiz-search id="' . esc_attr( $page->ID ) . '"]' );
             } else {
@@ -65,7 +65,7 @@ class SearchWiz_Widget extends WP_Widget {
 		<p>
 		<?php
 			$html = '';
-			$args = array( 'numberposts' => -1, 'post_type' => 'is_search_form' );
+			$args = array( 'numberposts' => -1, 'post_type' => SearchWiz_Search_Form::post_type );
 
 			$posts = get_posts( $args );
 

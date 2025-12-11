@@ -54,7 +54,7 @@ class SearchWiz_Admin_Public {
 	function customize_register( $wp_customize ) {
 
 		$query_args = apply_filters( 'searchwiz_customize_register_args', array(
-			'post_type'  => 'is_search_form',
+			'post_type'  => SearchWiz_Search_Form::post_type,
 
 			// Query performance optimization.
 			'fields'         => 'ids',
@@ -80,7 +80,7 @@ class SearchWiz_Admin_Public {
 
 		/* General Panel */
 		SearchWiz_Customizer_Panel::get_instance()->add_panel(
-			'is_search_form_panel', array(
+			'searchwiz_search_form_panel', array(
 				'title'    => __( 'SearchWiz', 'searchwiz' ),
 				'sections' => $sections,
 			)
@@ -432,7 +432,7 @@ class SearchWiz_Admin_Public {
 			return $form; // User disabled SearchWiz as default, return WordPress default form
 		}
 
-		$page = get_page_by_path( 'default-search-form', OBJECT, 'is_search_form' );
+		$page = get_page_by_path( 'default-search-form', OBJECT, SearchWiz_Search_Form::post_type );
 
 		if ( ! empty( $page ) ) {
                         $search_form = SearchWiz_Search_Form::get_instance( $page->ID );
@@ -510,7 +510,7 @@ class SearchWiz_Admin_Public {
 		$atts = array_map( 'sanitize_text_field', $atts );
 		$display_id = '';
 		if ( ! isset( $atts['id'] ) || empty( $atts['id'] ) ) {
-			$page = get_page_by_path( 'default-search-form', OBJECT, 'is_search_form' );
+			$page = get_page_by_path( 'default-search-form', OBJECT, SearchWiz_Search_Form::post_type );
 
 			if ( ! empty( $page ) ) {
 				$atts['id'] = $page->ID;

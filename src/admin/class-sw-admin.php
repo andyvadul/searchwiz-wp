@@ -844,7 +844,7 @@ class SearchWiz_Admin {
             add_filter( 'manage_' . $current_screen->id . '_columns', array('SearchWiz_List_Table', 'define_columns') );
             add_screen_option( 'per_page', array(
                 'default' => 20,
-                'option'  => 'is_search_forms_per_page',
+                'option'  => 'searchwiz_search_forms_per_page',
             ) );
         }
     }
