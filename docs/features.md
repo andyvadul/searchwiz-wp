@@ -22,9 +22,10 @@ SearchWiz provides real-time search results as you type, without page reloads.
 Matching search terms are automatically highlighted in results.
 
 **Features:**
-- Bold highlighting of exact matches
+- Bold highlighting of exact, full-word matches
 - Works in titles and excerpts
 - Customizable highlight style
+- Note: Full word matches are highlighted (e.g., "bike" highlights in results). Partial word matches (e.g., "bik") currently do not highlight, though autocomplete suggestions still work.
 
 **Configuration:**
 - Settings → SearchWiz → Display → Highlight Search Terms

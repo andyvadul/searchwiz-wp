@@ -9,13 +9,17 @@ Solutions for common issues with SearchWiz.
 **Symptoms:**
 - No results dropdown when typing
 - Empty results container
+- Results only appear after typing many characters
 
 **Solutions:**
 
 1. **Check minimum character setting**
    - Go to Settings → SearchWiz → General
    - Verify "Minimum Characters" is set appropriately (default: 3)
-   - Try typing more characters
+   - This setting controls how many characters users must type before search starts
+   - Lower values = more responsive search, Higher values = fewer server requests
+   - Try typing at least the configured minimum number of characters
+   - If search feels slow, increasing this value can improve responsiveness
 
 2. **Verify Ajax is enabled**
    - Settings → SearchWiz → General → Enable Ajax Search

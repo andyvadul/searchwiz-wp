@@ -23,28 +23,46 @@ This guide will help you install and configure SearchWiz on your WordPress site.
 
 After activation, SearchWiz works immediately with sensible defaults. To customize:
 
-1. Go to **Settings → SearchWiz**
-2. Configure your preferences (see sections below)
-3. Click **Save Changes**
+1. Go to **SearchWiz** menu in the WordPress admin sidebar
+2. Click **Front-end Settings** for visitor-facing options
+3. Click **Back-end Settings** for indexing and advanced options
+4. Configure your preferences (see sections below)
+5. Click **Save**
 
 ## Configuration Options
 
-### General Settings
+### Front-end Settings (Visitor Experience)
 
-- **Enable Ajax Search** - Turn on/off instant search results
-- **Minimum Characters** - How many characters before search starts
-- **Results Per Page** - Number of results to show
+Access via **SearchWiz → Front-end Settings**
 
-### Display Settings
-
+**Display & Styling Tab:**
 - **Highlight Search Terms** - Highlight matching text in results
 - **Show Thumbnails** - Display featured images in results
 - **Result Layout** - Choose list or grid layout
+- **Color Customization** - Customize appearance with color pickers
 
-### Advanced Settings
+**Search Behavior Tab:**
+- Coming soon in Phase 2
 
+**Menu Search Tab:**
+- Enable/disable search in navigation menus
+- Customize menu search appearance
+
+### Back-end Settings (Content Indexing)
+
+Access via **SearchWiz → Back-end Settings**
+
+**Index Management Tab:**
 - **Post Types to Search** - Select which content types to include
-- **Exclude Categories** - Hide specific categories from search
+- **Custom Fields** - Choose custom fields to index
+- **Build Index** - Manually rebuild search index
+
+**Analytics Tab:**
+- Track search activity
+- Enable/disable search analytics
+
+**Advanced Tab:**
+- Coming soon in Phase 2
 
 ## Testing Your Setup
 

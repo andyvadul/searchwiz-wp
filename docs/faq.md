@@ -22,13 +22,13 @@ Yes, SearchWiz is free and open source, released under the GPL v2 license.
 
 ### Does SearchWiz work with my theme?
 
-SearchWiz works with any properly coded WordPress theme. It has been tested with popular themes including:
-- Storefront
-- Astra
-- GeneratePress
-- OceanWP
-- Twenty Twenty-Three
-- Twenty Twenty-Four
+SearchWiz works with any properly coded WordPress theme. It has been tested with 24+ themes including:
+- **WooCommerce themes:** Storefront, Astra, GeneratePress, OceanWP
+- **Multi-purpose:** Astra, GeneratePress, OceanWP
+- **Default WordPress:** Twenty Twenty-Three, Twenty Twenty-Four
+- **Plus:** 18+ additional themes verified compatible
+
+If you experience layout issues with a specific theme, see the [Troubleshooting Guide](troubleshooting.md) section on theme conflicts.
 
 ### Does SearchWiz work with WooCommerce?
 
