@@ -101,11 +101,13 @@ final class SearchWiz {
         require_once SEARCHWIZ_PLUGIN_DIR . 'includes/class-sw-widget.php';
         require_once SEARCHWIZ_PLUGIN_DIR . 'includes/class-sw.php';
 
+        // Load SearchWiz_Admin unconditionally as it's needed during plugin activation
+        require_once SEARCHWIZ_PLUGIN_DIR . 'admin/class-sw-admin.php';
+
         if ( is_admin() || ( defined( 'DOING_AJAX' ) && DOING_AJAX ) ) {
             /**
              * Admin Files
              */
-            require_once SEARCHWIZ_PLUGIN_DIR . 'admin/class-sw-admin.php';
             require_once SEARCHWIZ_PLUGIN_DIR . 'admin/class-sw-editor.php';
             require_once SEARCHWIZ_PLUGIN_DIR . 'admin/class-sw-help.php';
             require_once SEARCHWIZ_PLUGIN_DIR . 'admin/class-sw-list-table.php';
