@@ -1092,16 +1092,19 @@ class SearchWiz_Public {
     function is_icu_regexp() {
         $is_icu_regexp = false;
         global $wpdb;
-        $db_version = $wpdb->db_version();
-        if ( version_compare( $db_version, '8.0.4', '>=' ) ) {
-            //mariadb
-            if ( stripos( $vesion_details, 'maria' ) !== false && version_compare( $db_version, '10.0.5', '>=' ) ) {
-                $is_icu_regexp = true;
-            } else {
-                //mysql
+        $db_version     = $wpdb->db_version();
+        $version_string = $wpdb->db_server_info();
+
+        // Check if MariaDB (ICU regexp support from 10.0.5+).
+        if ( stripos( $version_string, 'maria' ) !== false ) {
+            if ( version_compare( $db_version, '10.0.5', '>=' ) ) {
                 $is_icu_regexp = true;
             }
+        } elseif ( version_compare( $db_version, '8.0.4', '>=' ) ) {
+            // MySQL 8.0.4+ has ICU regexp support.
+            $is_icu_regexp = true;
         }
+
         return $is_icu_regexp;
     }
 
