@@ -277,7 +277,7 @@ form .is-link-container a {
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: 100;
-	font-family: arial;
+	font-family: arial, sans-serif;
 	box-shadow: none;
 }
 
@@ -325,7 +325,7 @@ form:hover + .is-link-container {
 	min-height: 0;
 	line-height: 1;
 	border: solid 1px #ccc !important;
-	font-family: arial;
+	font-family: arial, sans-serif;
 	width: 100%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -391,9 +391,6 @@ form:hover + .is-link-container {
 	position: absolute;
 	top: 0;
 	right: 0;
-}
-
-.is-form-style input.is-search-submit {
 	padding: 0 10px !important;
 	width: auto;
 }

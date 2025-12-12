@@ -211,7 +211,7 @@ span.shortcode > input {
 	display: inline-block;
 	font-size: 30px;
 	line-height: 1;
-	font-family: dashicons;
+	font-family: dashicons, sans-serif;
 	text-decoration: inherit;
 	font-style: normal;
 	vertical-align: middle;
@@ -358,7 +358,7 @@ h1.wp-heading-inline {
 
 .is-help::before {
 	content: "\f348";
-	font-family: dashicons;
+	font-family: dashicons, sans-serif;
 	color: #72777c;
 	font-size: 18px;
 	line-height: 1;
@@ -553,7 +553,7 @@ h1.wp-heading-inline {
 /* WordPress handles all the styling automatically */
 
 #search-form-editor-tabs li a::after {
-	font-family: dashicons;
+	font-family: dashicons, sans-serif;
 	content: "\f345";
 	display: inline-block;
 	color: #a0a5aa;
@@ -713,7 +713,7 @@ span.shortcode > input:focus,
 }
 
 .form-table h3.ui-accordion-header::before {
-	font-family: dashicons;
+	font-family: dashicons, sans-serif;
 	content: "\f345";
 	color: #72777c;
 	display: inline-block;
@@ -968,7 +968,7 @@ span.shortcode > input:focus,
 }
 
 .is-cb-title::after {
-	font-family: dashicons;
+	font-family: dashicons, sans-serif;
 	content: "\f347";
 	color: #72777c;
 	font-size: 14px;
@@ -1076,6 +1076,7 @@ body.wp-admin.rtl .ui-datepicker {
 	border: none;
 	color: #fff;
 	font-weight: 400;
+	background: #00a0d2;
 }
 
 .ui-datepicker .ui-datepicker-header .ui-state-hover {
@@ -1131,7 +1132,7 @@ body.wp-admin.rtl .ui-datepicker {
 
 .ui-datepicker .ui-datepicker-prev::before,
 .ui-datepicker .ui-datepicker-next::before {
-	font: 400 20px/34px dashicons;
+	font: 400 20px/34px dashicons, sans-serif;
 	padding-left: 7px;
 	color: #fff;
 	speak: none;
@@ -1162,6 +1163,7 @@ body.wp-admin.rtl .ui-datepicker {
 .ui-datepicker thead {
 	color: #fff;
 	font-weight: 600;
+	background: #32373c;
 }
 
 .ui-datepicker th {
@@ -1211,15 +1213,6 @@ body.wp-admin.rtl .ui-datepicker {
 }
 
 /* Default Color Scheme */
-.ui-datepicker .ui-widget-header,
-.ui-datepicker .ui-datepicker-header {
-	background: #00a0d2;
-}
-
-.ui-datepicker thead {
-	background: #32373c;
-}
-
 .ui-datepicker td .ui-state-hover {
 	background: #0073aa;
 	color: #fff;

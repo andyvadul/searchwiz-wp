@@ -1,0 +1,5 @@
+# Ignore minified CSS files
+*.min.css
+
+# Ignore build output
+public/dist/**
