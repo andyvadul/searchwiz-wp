@@ -11,7 +11,7 @@
  * Domain Path: /languages/
  * Text Domain: searchwiz
  * Source Code: https://plugins.svn.wordpress.org/searchwiz/trunk/
- * Subversion: GitHub Pro enabled - SVN deployment active
+ * Subversion: Testing npm install fix
  *
  * WC tested up to: 9
  *
