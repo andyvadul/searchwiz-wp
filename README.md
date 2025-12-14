@@ -17,6 +17,10 @@ A lightweight, powerful search enhancement plugin for WordPress that improves yo
 - **Lightweight** - No bloat, fast performance, minimal footprint
 - **Accessibility Ready** - WCAG 2.1 compliant search interface
 
+## Source Code
+
+The full source code is available in the [WordPress.org SVN repository](https://plugins.svn.wordpress.org/searchwiz/trunk/).
+
 ## Installation
 
 ### From WordPress Plugin Directory

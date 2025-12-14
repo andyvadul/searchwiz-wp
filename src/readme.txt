@@ -12,8 +12,8 @@ Smart WordPress search with instant AJAX results and intelligent content discove
 
 == Source Code ==
 
-The full source code for all minified JavaScript and CSS files is available on GitHub:
-https://github.com/andyvadul/searchwiz-wp
+The full source code for all minified JavaScript and CSS files is available in the WordPress.org SVN repository:
+https://plugins.svn.wordpress.org/searchwiz/trunk/
 
 Build tools used: @wordpress/scripts (npm run build)
 
@@ -26,34 +26,89 @@ Minified files and their sources:
 
 == Description ==
 
-SearchWiz enhances your WordPress site's search functionality with:
+SearchWiz is a powerful, intelligent WordPress search plugin that transforms the default WordPress search into a modern, fast, and user-friendly search experience. It provides instant AJAX results, smart autocomplete, and seamless WooCommerce integration.
 
-* Custom search forms with multiple layouts
-* Advanced search filters and content types
-* AJAX-powered live search results
-* Customizable search result templates
-* Integration-ready architecture for AI addons
+**Key Features:**
 
-Perfect for content-heavy sites, e-commerce stores, and knowledge bases that need powerful search capabilities.
+* **Instant AJAX Search** - See results as you type, with zero page refreshes
+* **Smart Autocomplete** - Intelligent suggestions based on your content
+* **WooCommerce Ready** - Complete support for product search with prices, images, and ratings
+* **Easy Customization** - Use the WordPress Customizer to style your search results
+* **High Performance** - Optimized for speed with intelligent indexing and caching
+* **Multiple Layouts** - Grid, list, and card layouts to match your site design
+* **Content Filtering** - Search by post type, category, taxonomy, and more
+* **Developer Friendly** - Clean code with hooks and filters for customization
+
+Perfect for:
+- E-commerce stores running WooCommerce
+- Content-heavy sites with large databases
+- Knowledge bases and documentation sites
+- News and magazine sites
+- Any WordPress site that needs better search
+
+**Why Choose SearchWiz?**
+
+SearchWiz is built specifically for WordPress with a focus on performance, usability, and accessibility. Unlike bloated search plugins, SearchWiz is lightweight, fast, and easy to configure.
 
 == Installation ==
 
-1. Upload the plugin files to `/wp-content/plugins/searchwiz/`
-2. Activate the plugin through the 'Plugins' screen in WordPress
-3. Use the Settings->SearchWiz screen to configure your search forms
+**From WordPress.org Plugin Directory (Easiest):**
+1. Go to Plugins → Add New
+2. Search for "SearchWiz"
+3. Click "Install Now"
+4. Click "Activate"
+
+**Manual Installation:**
+1. Download the plugin zip file from WordPress.org
+2. Upload to `/wp-content/plugins/` via FTP or File Manager
+3. Activate the plugin through the Plugins menu
+
+**Getting Started:**
+1. After activation, go to Settings → SearchWiz
+2. Configure your search preferences (content types, filters, display options)
+3. Use the WordPress Customizer (Appearance → Customize → SearchWiz) to style your search results
+4. Add the search widget to your sidebar or use shortcodes to display search on your pages
+
+== Screenshots ==
+
+1. AJAX-powered live search results appearing instantly as you type
+2. Smart autocomplete suggestions based on your content
+3. Customizer panel for styling your search results
+4. WooCommerce product search integration
 
 == Frequently Asked Questions ==
 
 = Is SearchWiz free? =
 Yes! The core SearchWiz plugin is completely free and available on WordPress.org.
 
-= Can I customize the search results? =
-Absolutely! SearchWiz provides multiple templates and customization options.
+= Does it work with WooCommerce? =
+Absolutely! SearchWiz fully supports WooCommerce products in search results with complete product metadata (prices, ratings, images, and stock status).
+
+= Can I customize the appearance? =
+Yes! Use the WordPress Customizer (Appearance → Customize → SearchWiz) to change colors, fonts, layouts, and more without touching code.
+
+= Does it support AJAX search? =
+Yes! SearchWiz provides instant AJAX-powered search results that load as users type, without page refresh.
+
+= What about performance? =
+SearchWiz is highly optimized for performance. It uses intelligent indexing, caching, and lazy loading to keep your site fast.
+
+= Is there a pro version? =
+SearchWiz (free) provides all core search features. Future premium features may include advanced AI capabilities through separate plugins.
 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
-* Custom search forms
-* Advanced filtering options
-* AJAX search functionality
+* Initial public release
+* AJAX-powered live search with instant results
+* Smart autocomplete suggestions
+* WooCommerce product search integration
+* Customizer support for styling search results
+* Multiple layout options (grid, list, card)
+* Advanced content filtering and search options
+* Responsive design for mobile devices
+* High performance with intelligent indexing
+* Developer-friendly hooks and filters
+* WordPress 6.6+ compatibility
+* PHP 8.0+ required
+* Full accessibility compliance

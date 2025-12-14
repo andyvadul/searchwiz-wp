@@ -18,6 +18,12 @@
     "lint:css": "wp-scripts lint-style react/**/*.css public/css/**/*.css admin/css/**/*.css",
     "lint:all": "npm run lint:js && npm run lint:css",
     "format": "wp-scripts format public/react",
+    "test:regression": "npx playwright test --config playwright.config.js",
+    "test:regression:critical": "npx playwright test --config playwright.config.js tests/Regression/critical-tests.spec.js",
+    "test:regression:extended": "npx playwright test --config playwright.config.js tests/Regression/extended-tests.spec.js",
+    "test:regression:debug": "npx playwright test --config playwright.config.js --debug",
+    "test:regression:ui": "npx playwright test --config playwright.config.js --ui",
+    "test:regression:report": "npx playwright show-report",
     "deploy": "npm run build && ../../scripts/deploy.sh",
     "clean": "rm -rf public/dist/* && rm -rf node_modules*"
   },
@@ -30,6 +36,7 @@
   "author": "SearchWiz Team",
   "license": "GPL-2.0-or-later",
   "devDependencies": {
+    "@playwright/test": "^1.57.0",
     "@testing-library/jest-dom": "^6.4.0",
     "@testing-library/react": "^14.2.0",
     "@wordpress/scripts": "^27.0.0",

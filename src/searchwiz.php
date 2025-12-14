@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: SearchWiz 
+ * Plugin Name: SearchWiz
  * Plugin URI:  https://www.searchwiz.ai
  * Description: Smart WordPress search with instant AJAX results and intelligent content discovery.
  * Version:     1.0.0
@@ -10,6 +10,8 @@
  * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path: /languages/
  * Text Domain: searchwiz
+ * Source Code: https://plugins.svn.wordpress.org/searchwiz/trunk/
+ * Subversion: GitHub Pro enabled - SVN deployment active
  *
  * WC tested up to: 9
  *

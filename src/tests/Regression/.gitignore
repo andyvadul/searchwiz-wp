@@ -1,0 +1,13 @@
+# Playwright test results and artifacts
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Video and screenshot files (unless explicitly committed)
+*.png
+*.mp4
+
+# Temporary files
+*.tmp
+*.temp
