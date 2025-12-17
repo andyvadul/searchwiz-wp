@@ -24,8 +24,6 @@ class SearchWiz_Settings_Fields {
      */
     private static $_instance;
 
-    private $is_premium_plugin = false;
-
     /**
      * Instantiates the plugin by setting up the core properties and loading
      * all necessary dependencies and defining the hooks.

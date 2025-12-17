@@ -19,13 +19,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<p><strong><?php esc_html_e( 'Take your search interface to the next level with these premium features:', 'searchwiz' ); ?></strong></p>
 	</div>
 
-	<!-- Feature 1: ChatGPT Conversational Search -->
+	<!-- Feature 1: Conversational Search -->
 	<div class="searchwiz-feature">
 		<h3>
-			<?php esc_html_e( 'ChatGPT Conversational Search + Actions', 'searchwiz' ); ?>
+			<?php esc_html_e( 'Conversational Search + Actions', 'searchwiz' ); ?>
 			<span class="searchwiz-badge"><?php esc_html_e( 'PRO', 'searchwiz' ); ?></span>
 		</h3>
-		<p><?php esc_html_e( 'Advanced ChatGPT-like conversational search with in-depth knowledge of your site and business. Advanced lead capture and easier search & item selection. Ask questions naturally and get intelligent answers with citations and actions.', 'searchwiz' ); ?></p>
+		<p><?php esc_html_e( 'Advanced conversational search with in-depth knowledge of your site and business. Advanced lead capture and easier search & item selection. Ask questions naturally and get intelligent answers with citations and actions.', 'searchwiz' ); ?></p>
 		<div class="searchwiz-feature-image">
 			<?php esc_html_e( 'Animated demo: ChatGPT conversational interface answering customer questions', 'searchwiz' ); ?>
 			<br><br>

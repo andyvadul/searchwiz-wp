@@ -38,14 +38,6 @@ class SearchWiz_Settings_Index_Fields {
     private static $_instance;
 
     /**
-     * Premium plugin flag.
-     *
-     * @since 1.0.0
-     * @var SW_Index_Option
-     */
-    private $is_premium_plugin = false;
-
-    /**
      * Instantiates the plugin by setting up the core properties and loading
      * all necessary dependencies and defining the hooks.
      *

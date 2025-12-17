@@ -16,8 +16,6 @@ class SearchWiz_Search_Editor {
 
     private $panels = array();
 
-    private $is_premium_plugin = false;
-
     private $index_conflicts;
 
     public function __construct( SearchWiz_Search_Form $search_form ) {

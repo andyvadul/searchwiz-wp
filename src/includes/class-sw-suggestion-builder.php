@@ -3,8 +3,7 @@
  * Smart Search Suggestions Builder
  *
  * Builds and maintains local search suggestions based on site content.
- * FREE tier: Uses local content extraction with fuzzy matching
- * AI tier: Enhanced with OpenAI semantic suggestions
+ * Uses local content extraction with fuzzy matching for search suggestions.
  *
  * @since 1.0.0
  * @package    SW

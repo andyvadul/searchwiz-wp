@@ -52,16 +52,8 @@ class SearchWiz_Base_Options {
     protected $ignore_fields = array(
         '_instance',
         'ignore_fields',
-        'is_premium_plugin',
         'opt'
     );
-
-    /**
-     * Indicates wheter it is a premium plugin.
-     *
-     * @since 1.0.0
-     */
-    protected $is_premium_plugin = false;
 
     /**
      * Gets the instance of this class.
