@@ -1,0 +1,450 @@
+<testsuites id="" name="" tests="16" failures="15" skipped="0" errors="0" time="4.220639">
+<testsuite name="critical-tests.spec.js" timestamp="2025-12-13T21:38:41.016Z" hostname="chromium" tests="16" failures="15" skipped="0" time="0" errors="0">
+<testcase name="Search Functionality - Critical Path › RT-001: Basic Search - Returns results when user searches for a term" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:36:3 RT-001: Basic Search - Returns results when user searches for a term" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:36:3 › Search Functionality - Critical Path › RT-001: Basic Search - Returns results when user searches for a term 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-Search-Func-3e6a5-en-user-searches-for-a-term-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-Search-Func-3e6a5-en-user-searches-for-a-term-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-Search-Func-3e6a5-en-user-searches-for-a-term-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Functionality - Critical Path › RT-002: Infinite Scroll - More results load when user scrolls to bottom" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:54:3 RT-002: Infinite Scroll - More results load when user scrolls to bottom" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:54:3 › Search Functionality - Critical Path › RT-002: Infinite Scroll - More results load when user scrolls to bottom 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-Search-Func-bf296-when-user-scrolls-to-bottom-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-Search-Func-bf296-when-user-scrolls-to-bottom-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-Search-Func-bf296-when-user-scrolls-to-bottom-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Functionality - Critical Path › RT-003: Inline Autocomplete - Gray inline text appears while typing" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:82:3 RT-003: Inline Autocomplete - Gray inline text appears while typing" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:82:3 › Search Functionality - Critical Path › RT-003: Inline Autocomplete - Gray inline text appears while typing 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-Search-Func-6dacf-e-text-appears-while-typing-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-Search-Func-6dacf-e-text-appears-while-typing-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-Search-Func-6dacf-e-text-appears-while-typing-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Functionality - Critical Path › RT-004: Search Highlighting - Search terms highlighted in results" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:108:3 RT-004: Search Highlighting - Search terms highlighted in results" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:108:3 › Search Functionality - Critical Path › RT-004: Search Highlighting - Search terms highlighted in results 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-Search-Func-fc476-erms-highlighted-in-results-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-Search-Func-fc476-erms-highlighted-in-results-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-Search-Func-fc476-erms-highlighted-in-results-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Admin Interface - Critical Path › RT-005: Admin Pages Load - Frontend and Backend settings pages load correctly" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:146:3 RT-005: Admin Pages Load - Frontend and Backend settings pages load correctly" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:146:3 › Admin Interface - Critical Path › RT-005: Admin Pages Load - Frontend and Backend settings pages load correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-Admin-Inter-2e77c-ttings-pages-load-correctly-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-Admin-Inter-2e77c-ttings-pages-load-correctly-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-Admin-Inter-2e77c-ttings-pages-load-correctly-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Admin Interface - Critical Path › RT-006: Settings Tabs Navigation - Clicking tabs displays correct content" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:171:3 RT-006: Settings Tabs Navigation - Clicking tabs displays correct content" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:171:3 › Admin Interface - Critical Path › RT-006: Settings Tabs Navigation - Clicking tabs displays correct content 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-Admin-Inter-916ef-bs-displays-correct-content-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-Admin-Inter-916ef-bs-displays-correct-content-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-Admin-Inter-916ef-bs-displays-correct-content-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Admin Interface - Critical Path › RT-007: Settings Persist - Changes are preserved after navigation" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:194:3 RT-007: Settings Persist - Changes are preserved after navigation" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:194:3 › Admin Interface - Critical Path › RT-007: Settings Persist - Changes are preserved after navigation 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-Admin-Inter-d1150--preserved-after-navigation-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-Admin-Inter-d1150--preserved-after-navigation-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-Admin-Inter-d1150--preserved-after-navigation-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Admin Interface - Critical Path › RT-008: Form Fields Visible - All form fields render and are functional" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:230:3 RT-008: Form Fields Visible - All form fields render and are functional" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:230:3 › Admin Interface - Critical Path › RT-008: Form Fields Visible - All form fields render and are functional 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-Admin-Inter-f6d71-s-render-and-are-functional-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-Admin-Inter-f6d71-s-render-and-are-functional-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-Admin-Inter-f6d71-s-render-and-are-functional-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="WooCommerce Integration - Critical Path › RT-009: Products Display - WooCommerce products appear in search results" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:269:3 RT-009: Products Display - WooCommerce products appear in search results" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:269:3 › WooCommerce Integration - Critical Path › RT-009: Products Display - WooCommerce products appear in search results 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-WooCommerce-1bde3-ts-appear-in-search-results-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-WooCommerce-1bde3-ts-appear-in-search-results-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-WooCommerce-1bde3-ts-appear-in-search-results-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="WooCommerce Integration - Critical Path › RT-010: Product Metadata - Product metadata displays (price, stock, etc.)" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:289:3 RT-010: Product Metadata - Product metadata displays (price, stock, etc.)" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:289:3 › WooCommerce Integration - Critical Path › RT-010: Product Metadata - Product metadata displays (price, stock, etc.) 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-WooCommerce-0ab92-a-displays-price-stock-etc--chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-WooCommerce-0ab92-a-displays-price-stock-etc--chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-WooCommerce-0ab92-a-displays-price-stock-etc--chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="WooCommerce Integration - Critical Path › RT-011: Two-Column Layout - Mixed products/posts layout correctly" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:309:3 RT-011: Two-Column Layout - Mixed products/posts layout correctly" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:309:3 › WooCommerce Integration - Critical Path › RT-011: Two-Column Layout - Mixed products/posts layout correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-WooCommerce-cad36-ucts-posts-layout-correctly-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-WooCommerce-cad36-ucts-posts-layout-correctly-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-WooCommerce-cad36-ucts-posts-layout-correctly-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Display Customization - Critical Path › RT-012: Color Settings Apply - Custom colors appear in search results" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:344:3 RT-012: Color Settings Apply - Custom colors appear in search results" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:344:3 › Display Customization - Critical Path › RT-012: Color Settings Apply - Custom colors appear in search results 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-Display-Cus-214d3-rs-appear-in-search-results-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-Display-Cus-214d3-rs-appear-in-search-results-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-Display-Cus-214d3-rs-appear-in-search-results-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Display Customization - Critical Path › RT-013: Display Options Work - Show/hide toggles function correctly" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:372:3 RT-013: Display Options Work - Show/hide toggles function correctly" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:372:3 › Display Customization - Critical Path › RT-013: Display Options Work - Show/hide toggles function correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-Display-Cus-571e4--toggles-function-correctly-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-Display-Cus-571e4--toggles-function-correctly-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-Display-Cus-571e4--toggles-function-correctly-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Display Customization - Critical Path › RT-014: Layout Options Work - Grid/list switching functions" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:403:3 RT-014: Layout Options Work - Grid/list switching functions" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:403:3 › Display Customization - Critical Path › RT-014: Layout Options Work - Grid/list switching functions 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-Display-Cus-aa4d7-id-list-switching-functions-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-Display-Cus-aa4d7-id-list-switching-functions-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-Display-Cus-aa4d7-id-list-switching-functions-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Display Customization - Critical Path › RT-015: Mobile Responsive - Search interface works on mobile viewport" classname="critical-tests.spec.js" time="0">
+<failure message="critical-tests.spec.js:423:3 RT-015: Mobile Responsive - Search interface works on mobile viewport" type="FAILURE">
+<![CDATA[  [chromium] › critical-tests.spec.js:423:3 › Display Customization - Critical Path › RT-015: Mobile Responsive - Search interface works on mobile viewport 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/andyvadul/Library/Caches/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-mac-arm64/chrome-headless-shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/critical-tests-Display-Cus-8500c-ce-works-on-mobile-viewport-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/critical-tests-Display-Cus-8500c-ce-works-on-mobile-viewport-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|critical-tests-Display-Cus-8500c-ce-works-on-mobile-viewport-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="RT Summary › Critical Tests Complete" classname="critical-tests.spec.js" time="0">
+<system-out>
+<![CDATA[
+✓ All 15 Critical Regression Tests (RT-001-015) Executed
+✓ Test Categories: Search (4), Admin (4), WooCommerce (3), Display (4)
+✓ Target Execution Time: <30 seconds
+✓ Pass Requirement: 100%
+
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
