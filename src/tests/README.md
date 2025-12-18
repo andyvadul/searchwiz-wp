@@ -7,17 +7,17 @@ Comprehensive test coverage for the SearchWiz WordPress plugin, including unit t
 
 ### Code Coverage
 
-![Overall Coverage](https://img.shields.io/badge/coverage-0%25-red)
-![Lines](https://img.shields.io/badge/lines-0%25-brightgreen)
-![Statements](https://img.shields.io/badge/statements-0%25-brightgreen)
-![Functions](https://img.shields.io/badge/functions-0%25-brightgreen)
-![Branches](https://img.shields.io/badge/branches-0%25-brightgreen)
+![Overall Coverage](https://img.shields.io/badge/coverage-18%25-red)
+![Lines](https://img.shields.io/badge/lines-22%25-brightgreen)
+![Statements](https://img.shields.io/badge/statements-22%25-brightgreen)
+![Functions](https://img.shields.io/badge/functions-17%25-brightgreen)
+![Branches](https://img.shields.io/badge/branches-12%25-brightgreen)
 
-**Overall Coverage:** 0%
-- Lines: 0%
-- Statements: 0%
-- Functions: 0%
-- Branches: 0%
+**Overall Coverage:** 18%
+- Lines: 22%
+- Statements: 22%
+- Functions: 17%
+- Branches: 12%
 
 ### Test Count
 
@@ -30,7 +30,7 @@ Comprehensive test coverage for the SearchWiz WordPress plugin, including unit t
 
 - **Build Number:** local
 - **Commit:** 
-- **Updated:** 2025-12-17 14:36:13
+- **Updated:** 2025-12-17 19:22:44
 
 
 ## Directory Structure
@@ -115,7 +115,7 @@ built modules 39.4 KiB (javascript) 1.94 KiB (css/mini-extract) [built]
   ./react/index.js + 8 modules 39.4 KiB [not cacheable] [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./react/styles/app.css 1.35 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./react/components/LoadingSpinner.css 606 bytes [built] [code generated]
-webpack 5.102.1 compiled successfully in 350 ms
+webpack 5.102.1 compiled successfully in 348 ms
 
 > searchwiz@1.0.0 build:css
 > cleancss -o admin/css/searchwiz-admin.min.css admin/css/searchwiz-admin.css && cleancss -o public/css/searchwiz-ajax-search.min.css public/css/searchwiz-ajax-search.css && cleancss -o public/css/searchwiz-search.min.css public/css/searchwiz-search.css
@@ -156,6 +156,6 @@ These tests ensure:
 
 ---
 
-*Last updated: 2025-12-17 14:36:13*
-*Build #local | Coverage: 0%*
+*Last updated: 2025-12-17 19:22:44*
+*Build #local | Coverage: 18%*
 
