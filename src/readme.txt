@@ -2,7 +2,7 @@
 Contributors: searchwiz, searchwizteam
 Tags: search, ajax search, search form, custom search, search filter
 Requires at least: 6.6
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 8.0
 Stable tag: 1.0.0
 License: GPLv2 or later
