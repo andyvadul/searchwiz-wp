@@ -69,12 +69,12 @@ module.exports = defineConfig({
     },
   ],
 
-  // Web server configuration (optional)
-  webServer: {
+  // Web server configuration (not needed in CI - tests hit external WordPress site)
+  webServer: process.env.CI ? undefined : {
     command: 'npm run dev',
     url: 'https://wp-dev-683-php84.searchwiz.ai',
     timeout: 120 * 1000,
-    reuseExistingServer: !process.env.CI,
+    reuseExistingServer: true,
   },
 
   // Global setup/teardown
